@@ -15,11 +15,18 @@ A 2D retro-style RPG game inspired by Golden Sun, built with Flutter and Flame e
 
 ### Phase 2: Narrative Framework (NEW)
 - **Story Management**: Track narrative state, flags, and story milestones
+- **Story Journal**: Review past events and current objectives in chronological order
 - **Quest System**: Main quests, side quests, and character quests with objectives
 - **Dialogue Trees**: Branching conversations with player choices and consequences
-- **Party System**: Manage up to 4 characters with individual stats and relationships
+- **Party System**: Manage up to 4 characters with progressive acquisition
 - **Relationship System**: Track bonds between characters with 9 relationship levels
 - **Cutscene System**: Scripted story sequences with dialogue, camera, and events
+
+### Progressive Party Formation
+- **Chapter 1**: Start with Kai (Venus Alchemist) solo
+- **Tutorial**: Ember (Mars Alchemist) joins as 2nd member
+- **Second Town**: Aria (Mercury Witch) joins as 3rd member
+- **Before 1st Lighthouse**: Zephyr (Jupiter Sorcerer) joins as 4th member
 
 ### UI/UX
 - **8-bit Retro Style**: Authentic GameBoy/GBA inspired color palette and pixel art aesthetic
@@ -54,6 +61,7 @@ lib/
 │   ├── main_menu_screen.dart    # Main menu with retro styling
 │   ├── game_screen.dart         # Main game screen with Flame integration
 │   ├── battle_screen.dart       # Turn-based battle system
+│   ├── story_journal_screen.dart  # Story event log and current tip (Phase 2)
 │   ├── quest_journal_screen.dart  # Quest tracking UI (Phase 2)
 │   ├── party_status_screen.dart   # Party members and relationships (Phase 2)
 │   ├── cutscene_player_screen.dart # Cutscene playback (Phase 2)

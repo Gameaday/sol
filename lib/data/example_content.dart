@@ -277,3 +277,60 @@ class ExampleDialogueTrees {
     );
   }
 }
+
+/// Example story events for the journal system
+class ExampleStoryEvents {
+  /// Creates example story events to demonstrate the journal
+  static List<Map<String, dynamic>> getExampleEvents() {
+    return [
+      {
+        'id': 'story_awakening',
+        'title': 'The Awakening',
+        'summary': 'Kai witnesses the cruel treatment of non-adepts in his village, sparking a determination to change the world.',
+        'type': 'story',
+      },
+      {
+        'id': 'character_ember_joins',
+        'title': 'A Kindred Spirit',
+        'summary': 'Ember, a former soldier who defected from the tower project, joins Kai in the quest to stop the towers.',
+        'type': 'character',
+      },
+      {
+        'id': 'location_first_town',
+        'title': 'Journey to the First Town',
+        'summary': 'Arrived at the first major settlement, learning more about the scope of the tower project.',
+        'type': 'location',
+      },
+      {
+        'id': 'character_aria_joins',
+        'title': 'The Scholar\'s Wisdom',
+        'summary': 'Aria, a Mercury scholar with knowledge of ancient warnings, joins the party to prevent the catastrophe she has researched.',
+        'type': 'character',
+      },
+      {
+        'id': 'story_too_late',
+        'title': 'Too Late',
+        'summary': 'The party arrives at the Venus Elemental Sanctuary only to find the Master Djinn has already been captured.',
+        'type': 'story',
+      },
+      {
+        'id': 'character_zephyr_joins',
+        'title': 'The Vision Bearer',
+        'summary': 'At the moment of despair, Zephyr appears with visions from the Wise One, completing the party of four.',
+        'type': 'character',
+      },
+      {
+        'id': 'battle_venus_lighthouse',
+        'title': 'Battle at Venus Lighthouse',
+        'summary': 'Successfully prevented the activation of Venus Lighthouse and retrieved the Venus elemental sphere.',
+        'type': 'battle',
+      },
+      {
+        'id': 'discovery_lighthouse_key',
+        'title': 'The Lighthouse Key',
+        'summary': 'Discovered a mysterious key in the Jupiter Sky Sanctum that will prove crucial for accessing the sealed Mercury Lighthouse.',
+        'type': 'discovery',
+      },
+    ];
+  }
+}

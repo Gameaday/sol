@@ -8,6 +8,8 @@ import '../models/item.dart';
 import '../widgets/game_hud.dart';
 import 'inventory_screen.dart';
 import 'psynergy_screen.dart';
+import 'quest_journal_screen.dart';
+import 'story_journal_screen.dart';
 import 'package:flame/game.dart';
 
 class GameScreen extends StatefulWidget {
@@ -83,6 +85,10 @@ class _GameScreenState extends State<GameScreen> {
               const SizedBox(height: 12),
               _buildMenuButton('Psynergy', _openPsynergy),
               const SizedBox(height: 12),
+              _buildMenuButton('Story Journal', _openStoryJournal),
+              const SizedBox(height: 12),
+              _buildMenuButton('Quest Journal', _openQuestJournal),
+              const SizedBox(height: 12),
               _buildMenuButton('Save Game', _saveGame),
               const SizedBox(height: 12),
               _buildMenuButton('Main Menu', _returnToMainMenu),
@@ -98,6 +104,24 @@ class _GameScreenState extends State<GameScreen> {
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (context) => PsynergyScreen(player: player!),
+      ),
+    );
+  }
+
+  void _openStoryJournal() {
+    Navigator.of(context).pop(); // Close pause menu
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => const StoryJournalScreen(),
+      ),
+    );
+  }
+
+  void _openQuestJournal() {
+    Navigator.of(context).pop(); // Close pause menu
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => const QuestJournalScreen(),
       ),
     );
   }
