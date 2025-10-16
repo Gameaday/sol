@@ -88,4 +88,24 @@ class ThemeManager extends ChangeNotifier {
       useMaterial3: true,
     );
   }
+  
+  /// Get current palette as a map for easy access in widgets
+  Map<String, Color> get currentPalette {
+    return {
+      'background': darkest,
+      'primaryDark': darkest,
+      'primary': dark,
+      'secondary': light,
+      'accent': lightest,
+      'text': text,
+      'hpColor': hpRed,
+      'mpColor': mpBlue,
+      'ppColor': ppPurple,
+      'gold': gold,
+      'elementVenus': elementVenus,
+      'elementMars': elementMars,
+      'elementJupiter': elementJupiter,
+      'elementMercury': elementMercury,
+    };
+  }
 }
