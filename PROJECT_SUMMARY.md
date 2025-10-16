@@ -17,25 +17,34 @@ An age when Alchemy flowed freely through the world, creating a society divided 
 
 ### The Journey
 1. **The Call** - Form party, learn about tower project
-2. **The Race** - Fail to save Venus and Mars Master Djinn (already captured and condensed)
-3. **Prevent First Lightings** - Stop Venus and Mars Lighthouse activation attempts
-4. **The Guide** - Meet Wise One, learn the sealing plan
-5. **Natural Elements** - Find Jupiter Master Djinn in its wild elemental dungeon
-6. **The Assault** - Battle Jupiter Master Djinn, convince it to join willingly
-7. **Jupiter Lighthouse Stand** - Prevent adept forces from lighting Jupiter tower
-8. **The Frozen Depths** - Navigate Mercury's natural elemental dungeon
-9. **Final Confrontation** - Battle Mercury Master Djinn, gain its consent
-10. **Mercury Lighthouse Siege** - Stop tower project leaders' final activation attempt
-11. **The Sacrifice** - Mercury and Jupiter Adepts give their lives to seal Alchemy at Sol Sanctum
+2. **Venus Earth Sanctuary** - Battle Venus Master Djinn in natural dungeon, obtain sphere
+3. **Mars Volcanic Forge** - Battle Mars Master Djinn in natural dungeon, obtain sphere
+4. **Jupiter Sky Sanctum** - Battle Jupiter Master Djinn in natural dungeon, obtain sphere + Lighthouse Key
+5. **Mercury Frozen Abyss** - Battle Mercury Master Djinn in natural dungeon, obtain sphere
+6. **The Guide** - Meet Wise One, learn sealing plan
+7. **The Theft** - Three spheres stolen (Venus, Mars, Mercury) before lighthouse journey
+8. **Jupiter Lighthouse (Tower 3)** - Pursue thieves, confirm Lighthouse Key possession, prevent activation
+9. **Mercury Lighthouse (Tower 4)** - THE HEIST - Use key to enter, steal back all three spheres mid-ceremony, prevent final activation
+10. **Venus Orb Chamber** - Calm Venus Master Djinn in sphere consciousness, unlock replay battles
+11. **Mars Orb Chamber** - Calm Mars Master Djinn in sphere consciousness, unlock special abilities
+12. **The Sacrifice** - Aria and Zephyr give their lives to seal Alchemy at Sol Sanctum
 
 ### The Outcome
-The Venus and Mars Adepts survive and found Vale village at the base of Sol Sanctum to guard the sealed elemental stones. Peace reigns for 1000 years... until the world begins dying without Alchemy, leading to Golden Sun's events.
+The Venus and Mars Adepts (Kai and Ember) survive and found Vale village at the base of Sol Sanctum to guard the sealed elemental stones. Peace reigns for 1000 years... until the world begins dying without Alchemy, leading to Golden Sun's events.
 
 ### The Wise One's Role
 The Wise One acts as a guardian of Alchemy's proper use across both games:
 - **In Sol**: Helps seal Alchemy to prevent abuse and end prejudice against non-adepts
 - **In Golden Sun**: Tests those who would unseal it to ensure they act virtuously, not for power
 - Consistent philosophy: Protect elemental forces from being weaponized or enslaved
+
+### Key Story Points
+- **All 4 elemental dungeons visited** - Party battles each Master Djinn in their natural habitat
+- **The dramatic theft** - 3 spheres stolen right before the lighthouse journey
+- **The heist** - Daring mission to steal back spheres during activation ceremony
+- **Orb battles** - Must calm Venus/Mars within their spheres to complete the sealing
+- **Unlocks replay battles** - Defeating orb forms grants special abilities and boss rush mode
+- **Lighthouses never lit** - All activation attempts prevented, explaining structural fragility in Golden Sun
 
 ## Current Implementation Status
 
@@ -85,12 +94,17 @@ The Wise One acts as a guardian of Alchemy's proper use across both games:
 
 ### Unique to Sol
 1. **Prequel Story** - Explains Golden Sun's sealed world origin
-2. **Four-Character Party** - All HP/PP Adepts like Golden Sun
-3. **Moral Complexity** - No easy answers, consequences for "good" choices
-4. **Sacrifice Theme** - Heroes give everything for equality
-5. **Historical Connection** - Direct link to Golden Sun lore
-6. **Lighthouse Origin** - Explains why towers are fragile (never tested until Golden Sun)
-7. **Natural Elementals** - Encounter Master Djinn in wild dungeons before tower battles
+2. **Four-Character Party** - All HP/PP Adepts like Golden Sun (Kai, Ember, Aria, Zephyr)
+3. **All Elemental Dungeons** - Visit all 4 Master Djinn in their natural habitats
+4. **The Dramatic Heist** - 3 spheres stolen, must steal them back at Tower 4
+5. **Lighthouse Key Mechanic** - Obtained at Jupiter, needed for Mercury Lighthouse
+6. **Orb Consciousness Battles** - Enter Venus/Mars spheres to calm their elemental forces
+7. **Replay System Unlock** - Defeating orb forms grants boss rush and special abilities
+8. **Moral Complexity** - No easy answers, consequences for "good" choices
+9. **Sacrifice Theme** - Heroes give everything for equality
+10. **Historical Connection** - Direct link to Golden Sun lore
+11. **Lighthouse Origin** - Explains why towers are fragile (never tested until Golden Sun)
+12. **Natural Elementals** - Battle Master Djinn in wild forms before any capture
 
 ### Golden Sun Heritage
 1. **Psynergy System** - Field and battle abilities

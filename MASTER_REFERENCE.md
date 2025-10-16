@@ -239,111 +239,128 @@ This document serves as the definitive reference for all content, systems, chara
 ### 10 Major Dungeons + Prologue/Epilogue
 
 #### Prologue
-- **Location**: Vale Village (future site)
+- **Location**: Ancient settlement
 - **Purpose**: Tutorial, party formation
 - **Encounters**: None (story only)
 - **Duration**: 30 minutes
 
-#### 1. Venus Sanctuary (Natural Dungeon)
-- **Location**: Deep underground cavern
-- **Objective**: Reach Master Djinn before capture
-- **Result**: Arrive too late, Djinn already condensed
-- **Enemies**: Rock Golems, Earth Sprites
-- **Puzzles**: Move boulders, navigate cave-ins
-- **Boss**: None (story defeat)
-- **Duration**: 2 hours
+#### 1. Venus Earth Sanctuary (Natural Dungeon)
+- **Location**: Deep underground cavern system
+- **Objective**: Battle Venus Master Djinn in its natural habitat
+- **Result**: Victory - retrieve Venus elemental sphere
+- **Enemies**: Rock Golems, Earth Sprites, Stone Guardians
+- **Puzzles**: Move boulders, navigate cave-ins, crystal alignments
+- **Boss**: Venus Master Djinn (Level 12) - wild untamed form
+- **Key Item**: Venus Sphere (obtained)
+- **Duration**: 2.5 hours
 
-#### 2. Venus Lighthouse (Constructed)
-- **Location**: Eastern mountains
-- **Objective**: Retrieve sphere, prevent activation
-- **Result**: Success - lighthouse never lit
-- **Enemies**: Adept Guards, Earth Constructs
-- **Puzzles**: Lever sequences, platform navigation
-- **Boss**: Adept Commander (Level 10)
-- **Key Item**: Venus Sphere
-- **Duration**: 1.5 hours
+#### 2. Mars Volcanic Forge (Natural Dungeon)
+- **Location**: Active volcanic realm
+- **Objective**: Battle Mars Master Djinn in its natural habitat
+- **Result**: Victory - retrieve Mars elemental sphere
+- **Enemies**: Lava Beasts, Fire Elementals, Magma Golems
+- **Puzzles**: Timing lava flows, heat vents, Blaze torches
+- **Boss**: Mars Master Djinn (Level 15) - wild blazing form
+- **Key Item**: Mars Sphere (obtained)
+- **Duration**: 2.5 hours
 
-#### 3. Mars Forge (Natural Dungeon)
-- **Location**: Active volcano
-- **Objective**: Reach Master Djinn before capture
-- **Result**: Arrive too late, Djinn already condensed
-- **Enemies**: Lava Beasts, Fire Elementals
-- **Puzzles**: Timing lava flows, Kindle torches
-- **Boss**: None (story defeat)
-- **Duration**: 2 hours
+#### 3. Jupiter Sky Sanctum (Natural Dungeon)
+- **Location**: Floating sky islands and temples
+- **Objective**: Battle Jupiter Master Djinn in its natural habitat
+- **Result**: Victory - retrieve Jupiter sphere + Lighthouse Key
+- **Enemies**: Sky Serpents, Wind Spirits, Storm Elementals
+- **Puzzles**: Wind currents, floating platforms, aerial navigation
+- **Boss**: Jupiter Master Djinn (Level 18) - wild aerial form
+- **Key Items**: 
+  - Jupiter Sphere (obtained)
+  - **Lighthouse Key** (needed for Mercury Lighthouse access)
+- **Duration**: 2.5 hours
 
-#### 4. Mars Lighthouse (Constructed)
-- **Location**: Southern volcanic island
-- **Objective**: Retrieve sphere, prevent activation
-- **Result**: Success - lighthouse never lit
-- **Enemies**: Adept Guards, Fire Constructs
-- **Puzzles**: Heat vents, rotating platforms
-- **Boss**: Fire Champion (Level 15)
-- **Key Item**: Mars Sphere
-- **Duration**: 1.5 hours
+#### 4. Mercury Frozen Abyss (Natural Dungeon)
+- **Location**: Deep arctic/underwater cave system
+- **Objective**: Battle Mercury Master Djinn in its natural habitat
+- **Result**: Victory - retrieve Mercury elemental sphere
+- **Enemies**: Ice Wraiths, Frost Beasts, Deep Sea Horrors
+- **Puzzles**: Frost bridges, ice sliding, water currents
+- **Boss**: Mercury Master Djinn (Level 20) - wild frozen form
+- **Key Item**: Mercury Sphere (obtained)
+- **Duration**: 2.5 hours
 
 #### 5. Wise One's Chamber
-- **Location**: Hidden grove
-- **Objective**: Learn sealing plan
+- **Location**: Hidden mystical grove
+- **Objective**: Learn sealing plan and receive guidance
 - **Result**: Gain mission clarity
 - **Encounters**: None (story only)
-- **Key Dialogue**: Wise One explains philosophy
-- **Duration**: 45 minutes
+- **Key Dialogue**: Wise One explains the sealing ritual
+- **Event**: **Three spheres stolen** (Venus, Mars, Mercury) during night
+- **Duration**: 1 hour
 
-#### 6. Jupiter Sky Sanctum (Natural Dungeon)
-- **Location**: Floating sky islands
-- **Objective**: Convince wild Master Djinn to join
-- **Result**: Success - Djinn joins willingly
-- **Enemies**: Sky Serpents, Wind Spirits
-- **Puzzles**: Wind currents, floating platforms
-- **Boss**: Jupiter Master Djinn (Level 18)
-- **Key Item**: Jupiter's blessing
-- **Duration**: 2.5 hours
-
-#### 7. Jupiter Lighthouse (Constructed)
-- **Location**: Northern mountains
-- **Objective**: Siege - prevent activation
-- **Result**: Success - lighthouse never lit
-- **Enemies**: Adept Army, Wind Constructs
-- **Puzzles**: Storm navigation, lightning rods
-- **Boss**: Storm General (Level 20)
+#### 6. Jupiter Lighthouse (Tower 3 - Constructed)
+- **Location**: Northern mountain peaks
+- **Objective**: Pursue thieves, secure Lighthouse Key, prevent activation
+- **Result**: Success - recover key, lighthouse never lit, thieves escape
+- **Enemies**: Adept Guards, Wind Constructs, Tower Defenders
+- **Puzzles**: Storm navigation, lightning rods, tower ascension
+- **Boss**: Storm General (Level 22)
+- **Key Item**: Lighthouse Key (confirmed possession)
+- **Status**: Only Jupiter Sphere remains with party
 - **Duration**: 2 hours
 
-#### 8. Mercury Frozen Abyss (Natural Dungeon)
-- **Location**: Deep arctic cave
-- **Objective**: Convince wild Master Djinn to join
-- **Result**: Success - Djinn joins willingly
-- **Enemies**: Ice Wraiths, Frost Beasts
-- **Puzzles**: Frost bridges, ice sliding
-- **Boss**: Mercury Master Djinn (Level 22)
-- **Key Item**: Mercury's blessing
+#### 7. Mercury Lighthouse (Tower 4 - Constructed - THE HEIST)
+- **Location**: Western frozen sea fortress
+- **Objective**: Use key to enter, steal back all three spheres mid-ceremony
+- **Result**: Success - recover all spheres, prevent final activation
+- **Enemies**: Elite Adepts, Ice Constructs, Tower Project Leaders
+- **Puzzles**: Ice melting, water level control, security systems
+- **Boss**: Ice Archmage & Tower Leaders (Level 25)
+- **Key Items**: Venus, Mars, Mercury Spheres (stolen back)
+- **Status**: All four spheres now secured
+- **Special**: Daring heist during lighting ceremony
 - **Duration**: 2.5 hours
 
-#### 9. Mercury Lighthouse (Constructed)
-- **Location**: Western frozen sea
-- **Objective**: Final siege - prevent activation
-- **Result**: Success - lighthouse never lit
-- **Enemies**: Elite Adepts, Ice Constructs
-- **Puzzles**: Ice melting, water level control
-- **Boss**: Ice Archmage (Level 25)
-- **Duration**: 2 hours
+#### 8. Venus Orb Chamber (Consciousness Realm)
+- **Location**: Inside Venus Sphere (mental/spiritual realm)
+- **Objective**: Calm and defeat Venus Master Djinn in orb form
+- **Result**: Venus pacified, unlocks replay battles + abilities
+- **Enemies**: None (boss only)
+- **Environment**: Surreal earth-themed mindscape
+- **Boss**: Venus Master Djinn - Orb Form (Level 27)
+- **Unlocks**: 
+  - Replay fight system
+  - Enhanced Venus Psynergy
+  - Special earth abilities
+- **Duration**: 1 hour
+
+#### 9. Mars Orb Chamber (Consciousness Realm)
+- **Location**: Inside Mars Sphere (mental/spiritual realm)
+- **Objective**: Calm and defeat Mars Master Djinn in orb form
+- **Result**: Mars pacified, unlocks replay battles + abilities
+- **Enemies**: None (boss only)
+- **Environment**: Surreal fire-themed mindscape
+- **Boss**: Mars Master Djinn - Orb Form (Level 28)
+- **Unlocks**: 
+  - Replay fight system (Mars)
+  - Enhanced Mars Psynergy
+  - Special fire abilities
+- **Duration**: 1 hour
 
 #### 10. Sol Sanctum (Sealing Chamber)
-- **Location**: Central mountain peak
-- **Objective**: Seal all four elemental forces
+- **Location**: Central mountain peak - sacred grounds
+- **Objective**: Seal all four elemental forces permanently
 - **Result**: Success - Aria & Zephyr sacrifice themselves
-- **Enemies**: None (ceremony)
-- **Puzzles**: Elemental alignment
-- **Cutscenes**: Major story climax
+- **Enemies**: None (ceremony + cutscenes)
+- **Puzzles**: Elemental alignment, final ritual
+- **Cutscenes**: Major story climax, farewells, sacrifice
+- **Note**: Jupiter & Mercury already calm from earlier cooperation
 - **Duration**: 1.5 hours
 
 #### Epilogue
 - **Location**: Vale Village founding
 - **Objective**: Establish guardian settlement
-- **Result**: Bridge to Golden Sun
+- **Result**: Bridge to Golden Sun timeline
 - **Duration**: 30 minutes
 
-**Total Playtime**: 25-30 hours
+**Total Playtime**: 28-32 hours
 
 ---
 

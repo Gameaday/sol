@@ -88,72 +88,98 @@ Four unlikely allies unite to stop the towers and change the world:
 - Initial confrontations with tower supporters
 - Discovery of the Master Djinn's existence
 
-### Act 2: The Race Against Time
+### Act 2: Gathering the Elements
 
-**The First Two Elements:**
-- Party races to Venus region, seeking the Master Djinn in its natural habitat
-- Arrives too late - the Venus Master Djinn has already been captured and condensed
-- At the Venus Lighthouse (tower), party battles adept forces but cannot undo what's done
-- Retrieves the condensed Venus sphere, preventing the lighthouse from being lit
-- Similar tragedy at Mars: arrive to find the Master Djinn already condensed
-- At the Mars Lighthouse, party prevents the tower's activation but gains the sphere
-- Meet the Wise One who guides them to the remaining elementals
+**Venus - Earth Sanctuary:**
+- Party reaches Venus Master Djinn in its natural underground sanctuary
+- Massive earth dungeon with stone puzzles and crystalline chambers
+- Epic battle against Venus Master Djinn in its wild, untamed form
+- Successfully retrieve the Venus elemental sphere after defeating it
+- Venus Master Djinn enters dormant state within the sphere
+
+**Mars - Volcanic Forge:**
+- Journey to Mars Master Djinn in its volcanic domain
+- Fire-themed dungeon with lava flows and heat-based puzzles
+- Battle Mars Master Djinn in its blazing, primal form
+- Retrieve the Mars elemental sphere after victory
+- Mars Master Djinn sealed within the condensed sphere
+
+**Jupiter - Sky Sanctum:**
+- Ascend to Jupiter Master Djinn in floating sky temples
+- Wind puzzles requiring all four party members in harmony
+- Confrontation with Jupiter Master Djinn in its wild aerial form
+- Obtain Jupiter elemental sphere and a mysterious **Lighthouse Key**
+- Jupiter hints at a greater plan unfolding
+
+**Mercury - Frozen Abyss:**
+- Descend to Mercury Master Djinn in frozen depths
+- Most challenging water/ice puzzles reflecting adaptability
+- Face Mercury Master Djinn in its pure elemental state
+- Secure the final elemental sphere
+- All four spheres now in party's possession
 
 **Key Revelation:**
 - The lighthouses have NEVER been lit - they are unproven technology
 - This explains why in Golden Sun, lighting them causes structural damage
-- Heroes prevent the towers from being activated even when fighting there
-- The condensed spheres have immense power but the towers remain dormant
+- The Lighthouse Key from Jupiter is needed to access the final tower
 
-**Turning Point:**
-- Party begins to question if they can succeed
-- Deeper understanding of what's at stake
-- Resolve strengthens to save the remaining elements
+### Act 3: The Betrayal and the Lighthouses
 
-### Act 3: The Battle for Freedom
+**Meeting the Wise One:**
+- Party brings all four spheres to the Wise One
+- Receives guidance on how to properly seal Alchemy
+- Warned of betrayal but party must continue forward
+- Prepares for journey to the lighthouses
 
-**Jupiter Element - Natural Dungeon:**
-- Party reaches Jupiter Master Djinn BEFORE capture
-- Massive elemental dungeon in the sky/mountains where Jupiter dwells
-- Puzzles requiring all four party members in harmony with wind
-- Epic battle against Jupiter Master Djinn in its wild, untamed form
-- Successfully convince it of the sealing plan after proving worthy
+**The Theft:**
+- Night before departing for the lighthouses
+- Mysterious figures infiltrate camp
+- **Three spheres stolen** (Venus, Mars, and Mercury)
+- Only Jupiter sphere remains with the party
+- Thieves are tower project leaders planning to activate all lighthouses
 
-**The Revelation:**
-- Party explains their plan to Jupiter Master Djinn
-- Proposal: Seal all Alchemy away to create equality
-- This would eliminate both adept superiority AND monster threats
-- Tension: The elementals understand this means their freedom ends too
-- Jupiter Master Djinn agrees after seeing the party's virtue
+**Jupiter Lighthouse - The Key:**
+- Party pursues thieves to Jupiter Lighthouse (Tower 3)
+- Must prevent lighthouse activation using Jupiter sphere
+- Epic battle against adept forces in the tower
+- Discover the **Lighthouse Key** is needed to access Mercury Tower
+- Retrieve the key but thieves escape with three spheres
+- Jupiter Lighthouse remains unlit and dormant
 
-**Jupiter Lighthouse - Prevented Activation:**
-- Adept forces attempt to use the already-condensed spheres at Jupiter Tower
-- Party must stop them from lighting the lighthouse with stolen spheres
-- Battle the adept army at the tower itself
-- Prevent the lighthouse from EVER being activated
-- This is why it remains structurally sound until Golden Sun era
+**Mercury Lighthouse - The Heist (Tower 4):**
+- Use Lighthouse Key to access the sealed Mercury Lighthouse
+- Tower project leaders are here attempting to activate all four lighthouses
+- All three stolen spheres are being prepared for the lighting ceremony
+- **Daring heist**: Party must steal back all three spheres mid-ceremony
+- Battle the strongest adepts in the world
+- Retrieve Venus, Mars, and Mercury spheres
+- Prevent Mercury Lighthouse activation
+- All four lighthouses remain unlit - never tested or activated
 
-**Mercury Element - Natural Dungeon:**
-- Final elemental dungeon in frozen wastelands/deep sea
-- Mercury Master Djinn in its natural habitat
-- Most challenging puzzles reflecting water's adaptability
-- Confront Mercury Master Djinn in epic battle
-- Convince it to join the sealing voluntarily
+**Why This Matters:**
+- The lighthouses were built but NEVER successfully lit
+- This explains their structural fragility in Golden Sun
+- After 1000 years dormant, they break when finally activated
 
-**Mercury Lighthouse - Final Stand:**
-- Tower project leaders make last attempt to activate Mercury Lighthouse
-- Party races to stop the lighting ceremony
-- Battle the strongest adepts in the world at the tower
-- Prevent activation and secure the location
-- All four lighthouses remain unlit and dormant
+### Act 4: The Great Sealing
 
-### Act 4: The Great Sealing (Tales of Symphonia-style Drama)
+**Preparation - Calming the First Two Elements:**
+- With all four spheres recovered, party prepares for the sealing
+- Venus and Mars spheres contain dormant but hostile elemental forces
+- **Must enter and calm/defeat** Venus Master Djinn within its orb form
+- **Must enter and calm/defeat** Mars Master Djinn within its orb form
+- These battles take place inside the consciousness of the elemental spheres
+- Successfully calming them unlocks:
+  - **Replay fights**: Can re-battle the Master Djinn for practice
+  - **Enhanced Psynergy**: Deeper connection to Venus and Mars elements
+  - **Special abilities**: Unique powers from understanding the elements
+- Jupiter and Mercury Master Djinn are already cooperative from earlier encounters
 
 **The Dilemma:**
 - Sealing Alchemy will save non-adepts but end the Age of Wonder
 - The world will become smaller, less magical
 - Many adepts will lose their identity and purpose
-- The party must convince the Master Djinn to accept imprisonment
+- The party must accept what they're about to do
 
 **The Sacrifice:**
 - To properly seal the elemental forces requires immense Psynergy power
@@ -206,22 +232,27 @@ Four unlikely allies unite to stop the towers and change the world:
 - Learning about the towers
 - First dungeons establishing teamwork
 
-**Mid Game (Levels 11-25):**
-- Race to the first two towers (arrive late)
-- Retrieve condensed spheres
+**Mid Game (Levels 11-20):**
+- Venus Earth Sanctuary (retrieve sphere)
+- Mars Volcanic Forge (retrieve sphere)
+- Jupiter Sky Sanctum (retrieve sphere + key)
+- Mercury Frozen Abyss (retrieve sphere)
+- All four spheres collected
+
+**Late Game (Levels 21-30):**
 - Meet the Wise One
-- Moral complexity introduced
+- Three spheres stolen (Venus, Mars, Mercury)
+- Jupiter Lighthouse assault (retrieve key)
+- Mercury Lighthouse heist (steal back all three spheres)
+- All lighthouses remain unlit
 
-**Late Game (Levels 26-40):**
-- Jupiter Tower assault
-- Party vs. Adept Army battles
-- Philosophical debates with Master Djinn
-- Mercury Tower final dungeon
-
-**Endgame (Level 40+):**
+**Endgame (Level 30+):**
+- Calm Venus Master Djinn in orb form
+- Calm Mars Master Djinn in orb form
+- Unlock replay battles and special abilities
 - Preparation for the sealing
-- Final boss: Tower Project Leaders
-- The Great Sealing ceremony
+- Final boss: Tower Project Leaders (if not defeated at Mercury Lighthouse)
+- The Great Sealing ceremony at Sol Sanctum
 - Epilogue sequence
 
 ### Psynergy and Story
@@ -239,15 +270,30 @@ Four unlikely allies unite to stop the towers and change the world:
 
 ### Djinn System Integration
 
-**Master Djinn as Both Natural and Captured:**
-- **Venus Master Djinn**: Already condensed into sphere (retrieve from captured state)
-- **Mars Master Djinn**: Already condensed into sphere (retrieve from captured state)
-- **Jupiter Master Djinn**: Battle in natural elemental dungeon, convince to join willingly
-- **Mercury Master Djinn**: Battle in natural elemental dungeon, convince to join willingly
+**Master Djinn Encounters:**
+1. **Venus Master Djinn**: Battle in Earth Sanctuary (natural dungeon), retrieve sphere
+2. **Mars Master Djinn**: Battle in Volcanic Forge (natural dungeon), retrieve sphere
+3. **Jupiter Master Djinn**: Battle in Sky Sanctum (natural dungeon), retrieve sphere + key
+4. **Mercury Master Djinn**: Battle in Frozen Abyss (natural dungeon), retrieve sphere
+
+**The Theft and Recovery:**
+- Venus, Mars, and Mercury spheres stolen before lighthouse journey
+- Jupiter sphere remains with party
+- Must retrieve key from Jupiter Lighthouse (Tower 3)
+- Heist at Mercury Lighthouse (Tower 4) to steal back all three spheres
+
+**Orb Form Battles (Endgame):**
+- **Venus Orb Battle**: Enter the sphere's consciousness, calm the elemental force
+- **Mars Orb Battle**: Enter the sphere's consciousness, calm the elemental force
+- These battles unlock replay fights and special abilities
+- Jupiter and Mercury are already calm from earlier cooperation
 
 **The Lighthouses - Never Activated:**
 - All four elemental lighthouses exist but have NEVER been lit
 - Party prevents any activation attempts throughout the game
+- Jupiter Lighthouse: Retrieve key, prevent activation
+- Mercury Lighthouse: Steal back spheres, prevent final activation
+- Explains structural fragility when finally lit 1000 years later in Golden Sun
 - Venus & Mars towers: Party stops activation ceremonies after retrieving spheres
 - Jupiter & Mercury towers: Party battles adept forces attempting to light them
 - This explains why lighthouses are structurally fragile in Golden Sun - no test runs
