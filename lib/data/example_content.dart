@@ -1,5 +1,6 @@
 import '../models/quest.dart';
 import '../models/dialogue_tree.dart';
+import 'characters/character_registry.dart';
 
 /// Example quests for testing and demonstration
 class ExampleQuests {
@@ -275,6 +276,45 @@ class ExampleDialogueTrees {
         ),
       },
     );
+  }
+}
+
+/// Example character creation helpers
+class ExampleCharacters {
+  /// Create example party for testing (all 4 characters at level 10)
+  static List<dynamic> createTestParty() {
+    return CharacterRegistry.createFullParty(10);
+  }
+
+  /// Create starting scenario party (just Kai)
+  static List<dynamic> createStartingScenario() {
+    return CharacterRegistry.createStartingParty();
+  }
+
+  /// Create tutorial scenario party (Kai + Ember)
+  static List<dynamic> createTutorialScenario() {
+    return CharacterRegistry.createTutorialParty(3);
+  }
+
+  /// Get character information for display
+  static Map<String, dynamic> getCharacterInfo(CharacterId id) {
+    return {
+      'name': CharacterRegistry.getCharacterName(id),
+      'element': CharacterRegistry.getCharacterElement(id),
+      'class': CharacterRegistry.getCharacterClass(id),
+      'description': CharacterRegistry.getCharacterDescription(id),
+      'backstory': CharacterRegistry.getCharacterBackstory(id),
+      'acquisition': CharacterRegistry.getAcquisitionLocation(id),
+      'joinLevel': CharacterRegistry.getJoinLevel(id),
+      'willSacrifice': CharacterRegistry.willSacrifice(id),
+    };
+  }
+
+  /// Get all characters info for character select or info screen
+  static List<Map<String, dynamic>> getAllCharactersInfo() {
+    return CharacterRegistry.getAllCharactersInOrder()
+        .map((id) => getCharacterInfo(id))
+        .toList();
   }
 }
 
