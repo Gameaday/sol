@@ -74,7 +74,7 @@ This update adds a comprehensive story journaling system and updates the game de
 - Updated project structure documentation
 - Listed new screen in architecture
 
-**New: JOURNAL_SYSTEM.md** (6,200+ words)
+**New: JOURNAL_SYSTEM.md** (825 words)
 - Comprehensive developer guide
 - Player usage instructions
 - API documentation with examples
@@ -123,8 +123,8 @@ This update adds a comprehensive story journaling system and updates the game de
 ## Technical Statistics
 
 **Files Created:**
-- `lib/screens/story_journal_screen.dart` (290 lines)
-- `JOURNAL_SYSTEM.md` (6,243 characters)
+- `lib/screens/story_journal_screen.dart` (293 lines)
+- `JOURNAL_SYSTEM.md` (6,257 characters, 825 words)
 
 **Files Modified:**
 - `lib/models/story_flags.dart` - Added StoryEvent model and event tracking
@@ -137,7 +137,7 @@ This update adds a comprehensive story journaling system and updates the game de
 
 **Total Changes:**
 - ~900 lines of code added
-- ~6,200 words of documentation added
+- ~1,500 words of documentation added
 - 8 files modified/created
 
 ## Key Design Decisions
