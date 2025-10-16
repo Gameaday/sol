@@ -252,7 +252,10 @@ class _ShopScreenState extends State<ShopScreen> {
                 if (item.healHp != null || item.healMp != null) ...[
                   const SizedBox(height: 4),
                   Text(
-                    '${item.healHp != null ? "HP+${item.healHp}" : ""} ${item.healMp != null ? "MP+${item.healMp}" : ""}',
+                    [
+                      if (item.healHp != null) 'HP+${item.healHp}',
+                      if (item.healMp != null) 'MP+${item.healMp}',
+                    ].join(' '),
                     style: TextStyle(
                       fontSize: 10,
                       color: canAfford
@@ -265,7 +268,10 @@ class _ShopScreenState extends State<ShopScreen> {
                 if (item.attackBonus != null || item.defenseBonus != null) ...[
                   const SizedBox(height: 4),
                   Text(
-                    '${item.attackBonus != null ? "ATK+${item.attackBonus}" : ""} ${item.defenseBonus != null ? "DEF+${item.defenseBonus}" : ""}',
+                    [
+                      if (item.attackBonus != null) 'ATK+${item.attackBonus}',
+                      if (item.defenseBonus != null) 'DEF+${item.defenseBonus}',
+                    ].join(' '),
                     style: TextStyle(
                       fontSize: 10,
                       color: canAfford

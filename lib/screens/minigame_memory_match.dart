@@ -93,7 +93,7 @@ class _MemoryMatchMiniGameState extends State<MemoryMatchMiniGame> {
             end: Alignment.bottomCenter,
             colors: [
               Color(0xFF0f380f),
-              Color(0xFF1a1a1a),
+              Color(0xFF306230),
             ],
           ),
         ),

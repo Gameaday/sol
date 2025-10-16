@@ -267,7 +267,10 @@ class _InventoryScreenState extends State<InventoryScreen> {
                 if (item.healHp != null || item.healMp != null) ...[
                   const SizedBox(height: 4),
                   Text(
-                    '${item.healHp != null ? "HP+${item.healHp}" : ""} ${item.healMp != null ? "MP+${item.healMp}" : ""}',
+                    [
+                      if (item.healHp != null) 'HP+${item.healHp}',
+                      if (item.healMp != null) 'MP+${item.healMp}',
+                    ].join(' '),
                     style: const TextStyle(
                       fontSize: 10,
                       color: Color(0xFF9bbc0f),
