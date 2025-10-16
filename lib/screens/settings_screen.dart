@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../services/audio_manager.dart';
+import '../services/theme_manager.dart';
 import '../widgets/retro_button.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -8,15 +9,17 @@ class SettingsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final themeManager = context.watch<ThemeManager>();
+    
     return Scaffold(
       body: Container(
-        decoration: const BoxDecoration(
+        decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
             colors: [
-              Color(0xFF0f380f),
-              Color(0xFF306230),
+              themeManager.darkest,
+              themeManager.dark,
             ],
           ),
         ),
@@ -30,18 +33,18 @@ class SettingsScreen extends StatelessWidget {
                 Row(
                   children: [
                     IconButton(
-                      icon: const Icon(
+                      icon: Icon(
                         Icons.arrow_back,
-                        color: Color(0xFF9bbc0f),
+                        color: themeManager.text,
                       ),
                       onPressed: () => Navigator.of(context).pop(),
                     ),
-                    const Text(
+                    Text(
                       'Settings',
                       style: TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
-                        color: Color(0xFF9bbc0f),
+                        color: themeManager.text,
                         fontFamily: 'monospace',
                       ),
                     ),
@@ -49,18 +52,79 @@ class SettingsScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 32),
 
-                // Music settings
+                // Appearance settings
+                Text(
+                  'Appearance',
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: themeManager.text,
+                    fontFamily: 'monospace',
+                  ),
+                ),
+                const SizedBox(height: 16),
+                
+                // Palette mode selector
+                Container(
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: themeManager.light,
+                      width: 2,
+                    ),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Color Palette',
+                        style: TextStyle(
+                          color: themeManager.text,
+                          fontFamily: 'monospace',
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: _buildPaletteOption(
+                              context,
+                              PaletteMode.gbc,
+                              'GBC',
+                              'GameBoy Color',
+                              themeManager,
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: _buildPaletteOption(
+                              context,
+                              PaletteMode.gba,
+                              'GBA',
+                              'GameBoy Advance',
+                              themeManager,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                
+                const SizedBox(height: 32),
+
+                // Audio settings
                 Consumer<AudioManager>(
                   builder: (context, audioManager, child) {
                     return Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const Text(
+                        Text(
                           'Audio',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
-                            color: Color(0xFF9bbc0f),
+                            color: themeManager.text,
                             fontFamily: 'monospace',
                           ),
                         ),
@@ -71,24 +135,24 @@ class SettingsScreen extends StatelessWidget {
                           padding: const EdgeInsets.all(12),
                           decoration: BoxDecoration(
                             border: Border.all(
-                              color: const Color(0xFF8bac0f),
+                              color: themeManager.light,
                               width: 2,
                             ),
                           ),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              const Text(
+                              Text(
                                 'Music',
                                 style: TextStyle(
-                                  color: Color(0xFF9bbc0f),
+                                  color: themeManager.text,
                                   fontFamily: 'monospace',
                                 ),
                               ),
                               Switch(
                                 value: audioManager.musicEnabled,
                                 onChanged: (_) => audioManager.toggleMusic(),
-                                activeColor: const Color(0xFF9bbc0f),
+                                activeColor: themeManager.lightest,
                               ),
                             ],
                           ),
@@ -100,25 +164,25 @@ class SettingsScreen extends StatelessWidget {
                           padding: const EdgeInsets.all(12),
                           decoration: BoxDecoration(
                             border: Border.all(
-                              color: const Color(0xFF8bac0f),
+                              color: themeManager.light,
                               width: 2,
                             ),
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              const Text(
+                              Text(
                                 'Music Volume',
                                 style: TextStyle(
-                                  color: Color(0xFF9bbc0f),
+                                  color: themeManager.text,
                                   fontFamily: 'monospace',
                                 ),
                               ),
                               Slider(
                                 value: audioManager.musicVolume,
                                 onChanged: audioManager.setMusicVolume,
-                                activeColor: const Color(0xFF9bbc0f),
-                                inactiveColor: const Color(0xFF306230),
+                                activeColor: themeManager.lightest,
+                                inactiveColor: themeManager.dark,
                               ),
                             ],
                           ),
@@ -130,24 +194,24 @@ class SettingsScreen extends StatelessWidget {
                           padding: const EdgeInsets.all(12),
                           decoration: BoxDecoration(
                             border: Border.all(
-                              color: const Color(0xFF8bac0f),
+                              color: themeManager.light,
                               width: 2,
                             ),
                           ),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              const Text(
+                              Text(
                                 'Sound Effects',
                                 style: TextStyle(
-                                  color: Color(0xFF9bbc0f),
+                                  color: themeManager.text,
                                   fontFamily: 'monospace',
                                 ),
                               ),
                               Switch(
                                 value: audioManager.sfxEnabled,
                                 onChanged: (_) => audioManager.toggleSfx(),
-                                activeColor: const Color(0xFF9bbc0f),
+                                activeColor: themeManager.lightest,
                               ),
                             ],
                           ),
@@ -159,25 +223,25 @@ class SettingsScreen extends StatelessWidget {
                           padding: const EdgeInsets.all(12),
                           decoration: BoxDecoration(
                             border: Border.all(
-                              color: const Color(0xFF8bac0f),
+                              color: themeManager.light,
                               width: 2,
                             ),
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              const Text(
+                              Text(
                                 'SFX Volume',
                                 style: TextStyle(
-                                  color: Color(0xFF9bbc0f),
+                                  color: themeManager.text,
                                   fontFamily: 'monospace',
                                 ),
                               ),
                               Slider(
                                 value: audioManager.sfxVolume,
                                 onChanged: audioManager.setSfxVolume,
-                                activeColor: const Color(0xFF9bbc0f),
-                                inactiveColor: const Color(0xFF306230),
+                                activeColor: themeManager.lightest,
+                                inactiveColor: themeManager.dark,
                               ),
                             ],
                           ),
@@ -199,6 +263,53 @@ class SettingsScreen extends StatelessWidget {
               ],
             ),
           ),
+        ),
+      ),
+    );
+  }
+  
+  Widget _buildPaletteOption(
+    BuildContext context,
+    PaletteMode mode,
+    String label,
+    String description,
+    ThemeManager themeManager,
+  ) {
+    final isSelected = themeManager.paletteMode == mode;
+    
+    return GestureDetector(
+      onTap: () => themeManager.setPaletteMode(mode),
+      child: Container(
+        padding: const EdgeInsets.all(12),
+        decoration: BoxDecoration(
+          color: isSelected ? themeManager.dark : themeManager.darkest,
+          border: Border.all(
+            color: isSelected ? themeManager.lightest : themeManager.light,
+            width: isSelected ? 3 : 2,
+          ),
+        ),
+        child: Column(
+          children: [
+            Text(
+              label,
+              style: TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.bold,
+                color: isSelected ? themeManager.lightest : themeManager.light,
+                fontFamily: 'monospace',
+              ),
+            ),
+            const SizedBox(height: 4),
+            Text(
+              description,
+              style: TextStyle(
+                fontSize: 10,
+                color: isSelected ? themeManager.light : themeManager.dark,
+                fontFamily: 'monospace',
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ],
         ),
       ),
     );

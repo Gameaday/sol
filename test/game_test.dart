@@ -2,6 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:sol/models/player.dart';
 import 'package:sol/models/monster.dart';
 import 'package:sol/models/item.dart';
+import 'package:sol/models/psynergy.dart';
 
 void main() {
   group('Player Tests', () {
@@ -12,6 +13,8 @@ void main() {
       expect(player.level, 1);
       expect(player.currentHp, 20);
       expect(player.maxHp, 20);
+      expect(player.currentPp, 20);
+      expect(player.maxPp, 20);
       expect(player.gold, 0);
     });
 
@@ -45,6 +48,32 @@ void main() {
       
       expect(player.level, initialLevel + 1);
       expect(player.maxHp, greaterThan(20));
+      expect(player.maxPp, greaterThan(20));
+    });
+    
+    test('Player learns Psynergy on level up', () {
+      final player = Player(name: 'TestHero');
+      player.gainExperience(100); // Level 2
+      
+      expect(player.learnedPsynergy.isNotEmpty, true);
+      expect(player.hasPsynergy('move'), true);
+    });
+    
+    test('Player can use Psynergy with sufficient PP', () {
+      final player = Player(name: 'TestHero');
+      
+      expect(player.canUsePsynergy(5), true);
+      player.usePp(15);
+      expect(player.canUsePsynergy(10), false);
+    });
+    
+    test('Player restores PP correctly', () {
+      final player = Player(name: 'TestHero');
+      player.usePp(10);
+      expect(player.currentPp, 10);
+      
+      player.restorePp(5);
+      expect(player.currentPp, 15);
     });
 
     test('Player inventory management', () {
@@ -60,6 +89,7 @@ void main() {
     test('Player JSON serialization', () {
       final player = Player(name: 'TestHero', gold: 50);
       player.addItem('potion');
+      player.learnPsynergy('quake');
       
       final json = player.toJson();
       final restored = Player.fromJson(json);
@@ -67,6 +97,8 @@ void main() {
       expect(restored.name, player.name);
       expect(restored.gold, player.gold);
       expect(restored.inventory, player.inventory);
+      expect(restored.learnedPsynergy, player.learnedPsynergy);
+      expect(restored.currentPp, player.currentPp);
     });
   });
 
@@ -133,6 +165,37 @@ void main() {
       
       expect(armor, isNotNull);
       expect(armor!.defenseBonus, greaterThan(0));
+    });
+  });
+  
+  group('Psynergy Tests', () {
+    test('Psynergy database contains abilities', () {
+      final quake = PsynergyDatabase.getPsynergy('quake');
+      
+      expect(quake, isNotNull);
+      expect(quake!.name, 'Quake');
+      expect(quake.element, PsynergyElement.venus);
+    });
+    
+    test('Field Psynergy filtering', () {
+      final fieldPsy = PsynergyDatabase.getFieldPsynergy();
+      
+      expect(fieldPsy.isNotEmpty, true);
+      expect(fieldPsy.every((p) => p.isFieldPsynergy()), true);
+    });
+    
+    test('Battle Psynergy filtering', () {
+      final battlePsy = PsynergyDatabase.getBattlePsynergy();
+      
+      expect(battlePsy.isNotEmpty, true);
+      expect(battlePsy.every((p) => p.isBattlePsynergy()), true);
+    });
+    
+    test('Psynergy element filtering', () {
+      final venusPsy = PsynergyDatabase.getByElement(PsynergyElement.venus);
+      
+      expect(venusPsy.isNotEmpty, true);
+      expect(venusPsy.every((p) => p.element == PsynergyElement.venus), true);
     });
   });
 

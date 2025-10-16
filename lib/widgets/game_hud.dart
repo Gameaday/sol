@@ -63,6 +63,15 @@ class GameHud extends StatelessWidget {
             max: player.maxMp,
             color: const Color(0xFF4444FF),
           ),
+          const SizedBox(height: 4),
+          
+          // PP bar (Psynergy Points)
+          _buildStatBar(
+            label: 'PP',
+            current: player.currentPp,
+            max: player.maxPp,
+            color: const Color(0xFFBB44FF),
+          ),
           const SizedBox(height: 8),
           
           // Gold

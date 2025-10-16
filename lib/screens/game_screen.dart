@@ -7,6 +7,7 @@ import '../models/player.dart';
 import '../models/item.dart';
 import '../widgets/game_hud.dart';
 import 'inventory_screen.dart';
+import 'psynergy_screen.dart';
 import 'package:flame/game.dart';
 
 class GameScreen extends StatefulWidget {
@@ -80,12 +81,23 @@ class _GameScreenState extends State<GameScreen> {
               const SizedBox(height: 12),
               _buildMenuButton('Inventory', _openInventory),
               const SizedBox(height: 12),
+              _buildMenuButton('Psynergy', _openPsynergy),
+              const SizedBox(height: 12),
               _buildMenuButton('Save Game', _saveGame),
               const SizedBox(height: 12),
               _buildMenuButton('Main Menu', _returnToMainMenu),
             ],
           ),
         ),
+      ),
+    );
+  }
+
+  void _openPsynergy() {
+    Navigator.of(context).pop(); // Close pause menu
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => PsynergyScreen(player: player!),
       ),
     );
   }
@@ -252,6 +264,31 @@ class _GameScreenState extends State<GameScreen> {
                   ),
                 ),
                 onPressed: _openInventory,
+              ),
+            ),
+          ),
+          
+          // Psynergy button
+          Positioned(
+            top: 68,
+            left: 8,
+            child: SafeArea(
+              child: IconButton(
+                icon: Container(
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF0f380f).withOpacity(0.8),
+                    border: Border.all(
+                      color: const Color(0xFFBB44FF),
+                      width: 2,
+                    ),
+                  ),
+                  child: const Icon(
+                    Icons.flash_on,
+                    color: Color(0xFFBB44FF),
+                  ),
+                ),
+                onPressed: _openPsynergy,
               ),
             ),
           ),
