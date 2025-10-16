@@ -11,6 +11,15 @@ A 2D retro-style RPG game inspired by Golden Sun, built with Flutter and Flame e
 - **Character Progression**: Level up system with stat improvements
 - **Save System**: Multiple save slots with timestamp tracking
 - **Inventory Management**: Collect items and gold throughout your adventure
+- **Psynergy System**: Golden Sun-inspired magical abilities with PP resource
+
+### Phase 2: Narrative Framework (NEW)
+- **Story Management**: Track narrative state, flags, and story milestones
+- **Quest System**: Main quests, side quests, and character quests with objectives
+- **Dialogue Trees**: Branching conversations with player choices and consequences
+- **Party System**: Manage up to 4 characters with individual stats and relationships
+- **Relationship System**: Track bonds between characters with 9 relationship levels
+- **Cutscene System**: Scripted story sequences with dialogue, camera, and events
 
 ### UI/UX
 - **8-bit Retro Style**: Authentic GameBoy/GBA inspired color palette and pixel art aesthetic
@@ -34,14 +43,27 @@ lib/
 ├── main.dart                 # Application entry point
 ├── models/                   # Data models
 │   ├── player.dart          # Player character model with stats and progression
+│   ├── party.dart           # Party of up to 4 characters (Phase 2)
+│   ├── quest.dart           # Quest and objective models (Phase 2)
+│   ├── dialogue_tree.dart   # Branching dialogue system (Phase 2)
+│   ├── character_relationship.dart  # Character bonds (Phase 2)
+│   ├── cutscene_script.dart # Cutscene events (Phase 2)
+│   ├── story_flags.dart     # Narrative state (Phase 2)
 │   └── monster.dart         # Monster/enemy models and database
 ├── screens/                  # UI screens
 │   ├── main_menu_screen.dart    # Main menu with retro styling
 │   ├── game_screen.dart         # Main game screen with Flame integration
 │   ├── battle_screen.dart       # Turn-based battle system
+│   ├── quest_journal_screen.dart  # Quest tracking UI (Phase 2)
+│   ├── party_status_screen.dart   # Party members and relationships (Phase 2)
+│   ├── cutscene_player_screen.dart # Cutscene playback (Phase 2)
 │   └── settings_screen.dart     # Audio and game settings
 ├── services/                 # Business logic services
 │   ├── game_state_manager.dart  # Global game state management
+│   ├── story_manager.dart       # Narrative and quest management (Phase 2)
+│   ├── dialogue_manager.dart    # Dialogue tree traversal (Phase 2)
+│   ├── party_manager.dart       # Party and relationships (Phase 2)
+│   ├── cutscene_director.dart   # Cutscene orchestration (Phase 2)
 │   ├── audio_manager.dart       # Audio playback control
 │   ├── save_manager.dart        # Save/load game functionality
 │   └── iap_manager.dart         # In-app purchase handling
@@ -49,6 +71,8 @@ lib/
 │   ├── retro_button.dart        # Styled button with retro aesthetic
 │   ├── retro_dialog.dart        # Dialog with GB/GBA styling
 │   └── game_hud.dart            # In-game heads-up display
+└── data/                     # Game content data (Phase 2)
+    └── example_content.dart     # Example quests and dialogues
 └── game/                     # Flame game components
     ├── sol_game.dart            # Main game world
     ├── components/              # Game entities
@@ -173,6 +197,16 @@ Assets are organized in the following structure:
 - `assets/audio/sfx/` - Sound effects
 - `assets/maps/` - Map data files
 - `assets/data/` - Game data (dialogue, items, etc.)
+
+## Documentation
+
+- **IMPLEMENTATION_PLAN.md** - 40-week development roadmap
+- **PHASE1_SUMMARY.md** - Summary of completed Phase 1 features
+- **PHASE2_GUIDE.md** - Comprehensive guide to Phase 2 narrative systems (NEW)
+- **ARCHITECTURE.md** - System architecture and design patterns
+- **STORY_AND_LORE.md** - Complete narrative and world building
+- **GAME_DESIGN.md** - Game design principles and mechanics
+- **lib/data/README.md** - Guide for creating game content (NEW)
 
 ## Future Enhancements
 
