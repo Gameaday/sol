@@ -1,0 +1,56 @@
+name: sol
+description: A 2D retro RPG game inspired by Golden Sun with overworld exploration and puzzle solving
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Game engine
+  flame: ^1.12.0
+  flame_audio: ^2.1.0
+  
+  # UI and styling
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  
+  # State management
+  provider: ^6.1.0
+  
+  # Storage and persistence
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  
+  # In-app purchases
+  in_app_purchase: ^3.1.11
+  
+  # JSON serialization
+  json_annotation: ^4.8.1
+  
+  # Utilities
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/tiles/
+    - assets/images/characters/
+    - assets/images/monsters/
+    - assets/images/ui/
+    - assets/audio/music/
+    - assets/audio/sfx/
+    - assets/maps/
+    - assets/data/
