@@ -198,33 +198,38 @@ data/characters/sorcerer_jupiter.dart
 - Decision to stop towers
 
 **Chapter 2: "The Race"**
-- Travel to Venus Tower
-- Venus Tower dungeon (arrive late)
+- Travel to Venus region
+- Venus Elemental Sanctuary (natural dungeon - arrive late, already captured)
+- Venus Lighthouse battle (prevent activation, retrieve sphere)
 - Venus failure cutscene
-- Travel to Mars Tower
-- Mars Tower dungeon (arrive late)
+- Travel to Mars region
+- Mars Elemental Forge (natural dungeon - arrive late, already captured)
+- Mars Lighthouse battle (prevent activation, retrieve sphere)
 - Mars failure cutscene
 - Party despair scene
 
 **Chapter 3: "The Guide"**
 - Meet the Wise One cutscene
-- Learn about sealing plan
+- Learn about sealing plan and importance of preventing lighthouse activation
 - Character debates
 - Decision to continue
 
 **Chapter 4: "The Assault"**
-- Journey to Jupiter Tower
-- Jupiter Tower dungeon (full)
-- Battle with Adept Army
-- Jupiter Master Djinn boss fight
-- Convince Jupiter cutscene
+- Journey to Jupiter region
+- Jupiter Sky Sanctum (natural elemental dungeon with wild Master Djinn)
+- Jupiter Master Djinn boss fight (in wild form)
+- Convince Jupiter cutscene (gains consent to seal)
+- Jupiter Lighthouse Stand (prevent adept forces from lighting tower)
+- Battle with Adept Army at lighthouse
 
 **Chapter 5: "The Depths"**
-- Prepare for Mercury Tower
-- Mercury Tower dungeon (final)
-- Mercury Master Djinn multi-phase boss
+- Prepare for Mercury region
+- Mercury Frozen Abyss (natural elemental dungeon with wild Master Djinn)
+- Mercury Master Djinn multi-phase boss (in wild form)
 - Mercury hesitation scene
-- Convince Mercury
+- Convince Mercury (gains consent)
+- Mercury Lighthouse Siege (final stand against tower project leaders)
+- Prevent final lighthouse activation
 
 **Chapter 6: "The Sacrifice"**
 - Journey to Sol Sanctum
@@ -262,11 +267,15 @@ data/characters/sorcerer_jupiter.dart
 
 **Story Dungeons:**
 1. Training Grounds (Tutorial) - 4 floors
-2. Venus Tower - 8 floors
-3. Mars Tower - 8 floors  
-4. Jupiter Tower - 12 floors
-5. Mercury Tower - 15 floors
-6. Sol Sanctum - 10 floors
+2. Venus Elemental Sanctuary (Natural dungeon) - 6 floors
+3. Venus Lighthouse (Battle, prevent activation) - 4 floors
+4. Mars Elemental Forge (Natural dungeon) - 6 floors
+5. Mars Lighthouse (Battle, prevent activation) - 4 floors
+6. Jupiter Sky Sanctum (Natural dungeon with wild Master Djinn) - 12 floors
+7. Jupiter Lighthouse (Prevent adept forces from lighting) - 8 floors
+8. Mercury Frozen Abyss (Natural dungeon with wild Master Djinn) - 15 floors
+9. Mercury Lighthouse (Final siege, prevent activation) - 10 floors
+10. Sol Sanctum (Sealing ceremony) - 10 floors
 
 **Optional Dungeons:**
 1. Venus Personal Dungeon - 6 floors

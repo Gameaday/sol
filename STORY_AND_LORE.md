@@ -91,11 +91,19 @@ Four unlikely allies unite to stop the towers and change the world:
 ### Act 2: The Race Against Time
 
 **The First Two Elements:**
-- Party arrives too late to the Venus Tower
-- The Venus Master Djinn has already been condensed into an elemental sphere
-- Similar fate befalls the Mars Master Djinn
-- Party retrieves both condensed spheres, feeling the weight of their failure
+- Party races to Venus region, seeking the Master Djinn in its natural habitat
+- Arrives too late - the Venus Master Djinn has already been captured and condensed
+- At the Venus Lighthouse (tower), party battles adept forces but cannot undo what's done
+- Retrieves the condensed Venus sphere, preventing the lighthouse from being lit
+- Similar tragedy at Mars: arrive to find the Master Djinn already condensed
+- At the Mars Lighthouse, party prevents the tower's activation but gains the sphere
 - Meet the Wise One who guides them to the remaining elementals
+
+**Key Revelation:**
+- The lighthouses have NEVER been lit - they are unproven technology
+- This explains why in Golden Sun, lighting them causes structural damage
+- Heroes prevent the towers from being activated even when fighting there
+- The condensed spheres have immense power but the towers remain dormant
 
 **Turning Point:**
 - Party begins to question if they can succeed
@@ -104,23 +112,40 @@ Four unlikely allies unite to stop the towers and change the world:
 
 ### Act 3: The Battle for Freedom
 
-**Jupiter Tower:**
-- Massive dungeon with puzzles requiring all four party members
-- Face the adept army attempting to capture Jupiter Master Djinn
-- Epic battle against tower defenders
-- Successfully reach Jupiter Master Djinn first
+**Jupiter Element - Natural Dungeon:**
+- Party reaches Jupiter Master Djinn BEFORE capture
+- Massive elemental dungeon in the sky/mountains where Jupiter dwells
+- Puzzles requiring all four party members in harmony with wind
+- Epic battle against Jupiter Master Djinn in its wild, untamed form
+- Successfully convince it of the sealing plan after proving worthy
 
 **The Revelation:**
 - Party explains their plan to Jupiter Master Djinn
 - Proposal: Seal all Alchemy away to create equality
 - This would eliminate both adept superiority AND monster threats
 - Tension: The elementals understand this means their freedom ends too
+- Jupiter Master Djinn agrees after seeing the party's virtue
 
-**Mercury Tower:**
-- Final dungeon, most challenging puzzles
-- Confront the leaders of the tower project
-- Battle the strongest adepts in the world
-- Save Mercury Master Djinn
+**Jupiter Lighthouse - Prevented Activation:**
+- Adept forces attempt to use the already-condensed spheres at Jupiter Tower
+- Party must stop them from lighting the lighthouse with stolen spheres
+- Battle the adept army at the tower itself
+- Prevent the lighthouse from EVER being activated
+- This is why it remains structurally sound until Golden Sun era
+
+**Mercury Element - Natural Dungeon:**
+- Final elemental dungeon in frozen wastelands/deep sea
+- Mercury Master Djinn in its natural habitat
+- Most challenging puzzles reflecting water's adaptability
+- Confront Mercury Master Djinn in epic battle
+- Convince it to join the sealing voluntarily
+
+**Mercury Lighthouse - Final Stand:**
+- Tower project leaders make last attempt to activate Mercury Lighthouse
+- Party races to stop the lighting ceremony
+- Battle the strongest adepts in the world at the tower
+- Prevent activation and secure the location
+- All four lighthouses remain unlit and dormant
 
 ### Act 4: The Great Sealing (Tales of Symphonia-style Drama)
 
@@ -214,11 +239,19 @@ Four unlikely allies unite to stop the towers and change the world:
 
 ### Djinn System Integration
 
-**Master Djinn as Boss Encounters:**
-- Venus Master Djinn: Already condensed (retrieve sphere)
-- Mars Master Djinn: Already condensed (retrieve sphere)
-- Jupiter Master Djinn: Boss fight, then ally
-- Mercury Master Djinn: Boss fight, then ally
+**Master Djinn as Both Natural and Captured:**
+- **Venus Master Djinn**: Already condensed into sphere (retrieve from captured state)
+- **Mars Master Djinn**: Already condensed into sphere (retrieve from captured state)
+- **Jupiter Master Djinn**: Battle in natural elemental dungeon, convince to join willingly
+- **Mercury Master Djinn**: Battle in natural elemental dungeon, convince to join willingly
+
+**The Lighthouses - Never Activated:**
+- All four elemental lighthouses exist but have NEVER been lit
+- Party prevents any activation attempts throughout the game
+- Venus & Mars towers: Party stops activation ceremonies after retrieving spheres
+- Jupiter & Mercury towers: Party battles adept forces attempting to light them
+- This explains why lighthouses are structurally fragile in Golden Sun - no test runs
+- The condensed spheres remain sealed until Golden Sun era when lighting begins
 
 **Lesser Djinn as Collections:**
 - Throughout the world, encounter lesser elemental spirits
@@ -249,15 +282,17 @@ Four unlikely allies unite to stop the towers and change the world:
 
 1. **The Rumors of Power** - Investigate tower project
 2. **Unity in Diversity** - Form party and learn cooperation
-3. **The Venus Tragedy** - Arrive too late, retrieve sphere
-4. **The Mars Calamity** - Second failure, more determination
+3. **The Venus Tragedy** - Arrive too late, retrieve sphere from Venus Lighthouse
+4. **The Mars Calamity** - Second failure, retrieve sphere and prevent Mars Lighthouse activation
 5. **Audience with the Ancient** - Meet the Wise One
-6. **Storm the Jupiter Gates** - Assault on Jupiter Tower
-7. **The Jupiter Accord** - Convince Master Djinn of plan
-8. **The Mercury Depths** - Final tower dungeon
-9. **The Last Element** - Save Mercury Master Djinn
-10. **The Great Sealing** - Seal Alchemy at Sol Sanctum
-11. **A New Beginning** - Found Vale, establish guardians
+6. **The Sky Sanctum** - Journey to Jupiter's natural elemental dungeon
+7. **Storm of the Wind God** - Battle and convince Jupiter Master Djinn
+8. **Jupiter Lighthouse Stand** - Prevent tower activation by adept forces
+9. **The Frozen Depths** - Navigate Mercury's natural elemental dungeon
+10. **Tide of the Water God** - Battle and convince Mercury Master Djinn
+11. **Mercury Lighthouse Siege** - Final stand preventing tower activation
+12. **The Great Sealing** - Seal Alchemy at Sol Sanctum
+13. **A New Beginning** - Found Vale, establish guardians
 
 ### Side Quests
 
@@ -304,8 +339,16 @@ Four unlikely allies unite to stop the towers and change the world:
 
 **Sol Sanctum:**
 - The exact location players visit in Golden Sun
-- The four elemental stones are the condensed Master Djinn
+- The four elemental stones are the condensed Master Djinn (2 captured, 2 willing)
 - The guardian tradition started by the alchemist heroes
+
+**The Elemental Lighthouses:**
+- Venus, Mars, Jupiter, and Mercury Lighthouses all exist in Sol's era
+- They are NEVER successfully lit during the prequel
+- Party prevents every activation attempt throughout the story
+- This explains why they are structurally fragile in Golden Sun - untested technology
+- When finally lit in Golden Sun, the buildings suffer damage from first-time use
+- The towers were designed but never proven, remaining dormant for 1000 years
 
 **The Wise One:**
 - Same mysterious entity in both games

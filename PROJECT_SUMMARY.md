@@ -17,11 +17,16 @@ An age when Alchemy flowed freely through the world, creating a society divided 
 
 ### The Journey
 1. **The Call** - Form party, learn about tower project
-2. **The Race** - Fail to save Venus and Mars Master Djinn (arrive too late)
-3. **The Guide** - Meet Wise One, learn the sealing plan
-4. **The Assault** - Successfully save Jupiter Master Djinn
-5. **The Depths** - Successfully save Mercury Master Djinn
-6. **The Sacrifice** - Mercury and Jupiter Adepts give their lives to seal Alchemy
+2. **The Race** - Fail to save Venus and Mars Master Djinn (already captured and condensed)
+3. **Prevent First Lightings** - Stop Venus and Mars Lighthouse activation attempts
+4. **The Guide** - Meet Wise One, learn the sealing plan
+5. **Natural Elements** - Find Jupiter Master Djinn in its wild elemental dungeon
+6. **The Assault** - Battle Jupiter Master Djinn, convince it to join willingly
+7. **Jupiter Lighthouse Stand** - Prevent adept forces from lighting Jupiter tower
+8. **The Frozen Depths** - Navigate Mercury's natural elemental dungeon
+9. **Final Confrontation** - Battle Mercury Master Djinn, gain its consent
+10. **Mercury Lighthouse Siege** - Stop tower project leaders' final activation attempt
+11. **The Sacrifice** - Mercury and Jupiter Adepts give their lives to seal Alchemy at Sol Sanctum
 
 ### The Outcome
 The Venus and Mars Adepts survive and found Vale village at the base of Sol Sanctum to guard the sealed elemental stones. Peace reigns for 1000 years... until the world begins dying without Alchemy, leading to Golden Sun's events.
@@ -80,10 +85,12 @@ The Wise One acts as a guardian of Alchemy's proper use across both games:
 
 ### Unique to Sol
 1. **Prequel Story** - Explains Golden Sun's sealed world origin
-2. **Four-Character Party** - Two alchemists (PP), two mages (MP)
+2. **Four-Character Party** - All HP/PP Adepts like Golden Sun
 3. **Moral Complexity** - No easy answers, consequences for "good" choices
 4. **Sacrifice Theme** - Heroes give everything for equality
 5. **Historical Connection** - Direct link to Golden Sun lore
+6. **Lighthouse Origin** - Explains why towers are fragile (never tested until Golden Sun)
+7. **Natural Elementals** - Encounter Master Djinn in wild dungeons before tower battles
 
 ### Golden Sun Heritage
 1. **Psynergy System** - Field and battle abilities
