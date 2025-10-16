@@ -6,6 +6,10 @@ import 'services/game_state_manager.dart';
 import 'services/audio_manager.dart';
 import 'services/save_manager.dart';
 import 'services/theme_manager.dart';
+import 'services/story_manager.dart';
+import 'services/dialogue_manager.dart';
+import 'services/party_manager.dart';
+import 'services/cutscene_director.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,6 +33,10 @@ class SolGame extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => AudioManager()),
         ChangeNotifierProvider(create: (_) => SaveManager()),
         ChangeNotifierProvider(create: (_) => ThemeManager()),
+        ChangeNotifierProvider(create: (_) => StoryManager()),
+        ChangeNotifierProvider(create: (_) => DialogueManager()),
+        ChangeNotifierProvider(create: (_) => PartyManager()),
+        ChangeNotifierProvider(create: (_) => CutsceneDirector()),
       ],
       child: Consumer<ThemeManager>(
         builder: (context, themeManager, child) {
