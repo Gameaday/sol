@@ -33,67 +33,113 @@ A powerful faction of adepts sought to harness even greater power:
 
 ## The Heroes
 
-### Party Composition
+### Party Composition - Progressive Formation
 
-Four unlikely allies unite to stop the towers and change the world:
+Four unlikely allies unite to stop the towers and change the world. **The party forms progressively throughout the story:**
 
-#### 1. The Alchemist (HP/PP Focused)
+#### 1. Kai - The Alchemist (Venus/Earth) - 1ST CHARACTER (Solo Start)
 - **Type**: Venus (Earth) Adept
+- **Joins**: Chapter 1 (Player starts with Kai)
 - **Background**: Young alchemist who questions the treatment of non-adepts
 - **Combat Style**: Balanced physical attacks and Psynergy, high durability
 - **Motivation**: Witnessed the cruelty toward non-adepts and seeks equality
 - **Resource**: HP and PP (Psynergy Points) like all Golden Sun characters
+- **Story Role**: The protagonist who begins the journey alone
 
-#### 2. The Warrior-Alchemist (HP/PP Focused)
+#### 2. Ember - The Warrior-Alchemist (Mars/Fire) - 2ND CHARACTER (Tutorial)
 - **Type**: Mars (Fire) Adept
+- **Joins**: Tutorial/Starting Area (early in Chapter 1)
 - **Background**: Former soldier who defected after seeing the towers' true purpose
 - **Combat Style**: Physical powerhouse with offensive Psynergy
 - **Motivation**: Believes Alchemy should remain wild and free, not controlled
 - **Resource**: HP and PP (Psynergy Points) like all Golden Sun characters
+- **Story Role**: First companion, teaches party mechanics
 
-#### 3. The Witch (HP/PP Focused)
+#### 3. Aria - The Witch (Mercury/Water) - 3RD CHARACTER (Second Town)
 - **Type**: Mercury (Water) Adept
+- **Joins**: Second Town (Chapter 2)
 - **Background**: Scholar who studied ancient texts about the pre-Alchemy age
 - **Combat Style**: Healing and support Psynergy specialist
 - **Motivation**: Researched the consequences of concentrating alchemical forces
 - **Resource**: HP and PP (Psynergy Points) like all Golden Sun characters
+- **Story Role**: Healer and voice of wisdom, adds depth to party
 
-#### 4. The Sorcerer (HP/PP Focused)
+#### 4. Zephyr - The Sorcerer (Jupiter/Wind) - 4TH CHARACTER (Before 1st Lighthouse)
 - **Type**: Jupiter (Wind) Adept
+- **Joins**: Chapter 3 (When arriving too late to Venus Elemental Sanctuary)
 - **Background**: Outcast who discovered the Wise One's warnings
 - **Combat Style**: Powerful offensive Psynergy and utility abilities
 - **Motivation**: Seeks to prevent the catastrophe his visions have shown
 - **Resource**: HP and PP (Psynergy Points) like all Golden Sun characters
+- **Story Role**: Final member, brings full party together at critical moment
 
 ### Character Development Themes
 
+- **Solo to Team**: Kai begins alone, learning to trust and work with others
+- **Building Trust**: Each new member brings challenges and growth
 - **Learning Cooperation**: Four very different individuals must learn to work together
 - **Understanding Elements**: Each hero gains deeper understanding of their element's nature
 - **Questioning Power**: The party grapples with whether any group should control Alchemy
-- **Sacrifice**: The magic users' ultimate fate in sealing Alchemy away
+- **Sacrifice**: Aria and Zephyr's ultimate fate in sealing Alchemy away
+- **Legacy**: Kai and Ember's survival to found Vale and become guardians
+
+### Progressive Party Formation Benefits
+
+**Solo Start (Kai only):**
+- Player learns core mechanics without complexity
+- Character introduction and world-building focus
+- Establishes personal motivation
+
+**2-Character Party (Kai + Ember):**
+- Introduction to party commands and formation
+- Simple cooperative tactics
+- Foundation of friendship and trust
+
+**3-Character Party (+ Aria):**
+- Healing and support strategies
+- More complex party dynamics
+- Relationship system becomes relevant
+
+**4-Character Party (+ Zephyr):**
+- Full tactical depth unlocked
+- Complete elemental coverage
+- Maximum strategic options
+- All relationship combinations active
 
 ## The Quest
 
-### Act 1: The Awakening
+### Act 1: The Awakening (Solo Start)
 
 **Initial Hook:**
-- Party hears rumors about the towers project
+- Player controls only Kai (Venus Alchemist) at the start
+- Solo introduction to the world and basic mechanics
 - Witnesses firsthand the abuse of non-adepts
 - Discovers ancient warnings about controlling elemental forces
-- Decides to investigate and stop the plan
+- Decides to investigate the tower rumors
 
-**Early Dungeons:**
-- Training grounds where party learns to work together
+**Tutorial Area (2-Character Party):**
+- Ember (Mars Alchemist) joins as the first companion
+- Training dungeon where Kai and Ember learn to work together
+- Introduction to party mechanics and formation
 - First encounters with wild elemental forces
 - Initial confrontations with tower supporters
 - Discovery of the Master Djinn's existence
 
-### Act 2: The First Failures
+### Act 2: The Growing Party
 
-**Venus - Earth Sanctuary:**
+**Second Town (3-Character Party):**
+- Travel to second town for information
+- Aria (Mercury Witch) joins the party
+- 3-character party dynamics and healing mechanics introduced
+- Preparation for the first major elemental dungeon
+- Investigation reveals the urgency of the situation
+
+**Venus - Earth Sanctuary (Full Party Formed):**
 - Party races to Venus Master Djinn's natural underground sanctuary
-- Arrive TOO LATE - enemy forces have already captured the Master Djinn
+- **Arrive TOO LATE** - enemy forces have already captured the Master Djinn
+- At this critical moment, **Zephyr (Jupiter Sorcerer) joins as 4th member**
 - Massive earth dungeon now empty, signs of recent battle everywhere
+- **Full 4-character party is now complete**
 - Party realizes they must adapt their strategy
 - Must now pursue to Venus Lighthouse
 
@@ -249,21 +295,40 @@ Four unlikely allies unite to stop the towers and change the world:
 
 ### Narrative Structure
 
-**Early Game (Levels 1-10):**
-- Character introductions
-- Party formation
+**Early Game (Levels 1-5): Solo Start**
+- Kai character introduction (solo)
 - Learning about the towers
-- First dungeons establishing teamwork
+- Solo combat and exploration tutorial
+- Witnessing injustice
 
-**Mid Game (Levels 11-20):**
-- Venus Earth Sanctuary (retrieve sphere)
-- Mars Volcanic Forge (retrieve sphere)
-- Jupiter Sky Sanctum (retrieve sphere + key)
-- Mercury Frozen Abyss (retrieve sphere)
+**Tutorial Area (Levels 5-10): First Companion**
+- Ember joins (2-character party)
+- Party mechanics introduction
+- Tutorial dungeon with 2 characters
+- Decision to stop towers
+
+**Second Town (Levels 10-15): Third Member**
+- Investigation and travel
+- Aria joins (3-character party)
+- Healing mechanics introduced
+- Preparation for first major challenge
+
+**First Major Arc (Levels 15-20): Full Party**
+- Rush to Venus Sanctuary (3-character party)
+- Zephyr joins at moment of failure (4-character party complete)
+- Venus Lighthouse (retrieve sphere)
+- Mars Elemental Forge (retrieve sphere)
+- Mars Lighthouse (retrieve sphere)
+- Party complete, all mechanics unlocked
+
+**Mid Game (Levels 20-25):**
+- Meet the Wise One
+- Strategy adjustment
+- Jupiter Sky Sanctum (arrive in time, retrieve sphere + key)
+- Mercury Frozen Abyss (arrive in time, retrieve sphere)
 - All four spheres collected
 
-**Late Game (Levels 21-30):**
-- Meet the Wise One
+**Late Game (Levels 25-30):**
 - Three spheres stolen (Venus, Mars, Mercury)
 - Jupiter Lighthouse assault (retrieve key)
 - Mercury Lighthouse heist (steal back all three spheres)

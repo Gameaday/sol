@@ -145,7 +145,35 @@ widgets/relationship_indicator.dart
 
 ### Phase 3: Party System (Weeks 8-12)
 
-**3.1 Four-Character Party**
+**3.1 Progressive Party Formation**
+
+**UPDATED REQUIREMENTS - Progressive Party Acquisition:**
+- **Start with 1 character**: Kai (Venus Alchemist) - Player begins solo
+- **2nd character joins in tutorial/starting area**: Ember (Mars Alchemist) - Joins early to teach party mechanics
+- **3rd character joins in 2nd town**: Aria (Mercury Witch) - Mid-game addition
+- **4th character joins before 1st lighthouse**: Zephyr (Jupiter Sorcerer) - Joins when arriving too late to first elemental spirit room
+
+**Character Acquisition Timeline:**
+1. **Chapter 1 Opening**: Player controls only Kai (Venus Alchemist)
+   - Solo tutorial and initial story setup
+   - Learn basic movement and combat
+   
+2. **Tutorial/Starting Area**: Ember (Mars Alchemist) joins
+   - Introduction to party mechanics
+   - First dungeon with 2-character party
+   - Learn about party formation and tactics
+   
+3. **Second Town**: Aria (Mercury Witch) joins
+   - Party expands to 3 members
+   - Introduce healing and support mechanics
+   - Relationship system becomes more complex
+   
+4. **Before First Lighthouse** (arriving too late): Zephyr (Jupiter Sorcerer) joins
+   - Full 4-character party complete
+   - Final party member adds versatility
+   - Ready for major story challenges
+
+**3.2 Four-Character Party System**
 
 **Requirements:**
 - Four distinct characters with unique stats
@@ -158,21 +186,21 @@ widgets/relationship_indicator.dart
 ```dart
 // Update existing Player model to Character model
 models/character.dart  // Replace player.dart
-models/party.dart  // Manage 4 characters
+models/party.dart  // Manage 4 characters (already exists)
 
 // Character definitions
-data/characters/alchemist_venus.dart
-data/characters/alchemist_mars.dart
-data/characters/witch_mercury.dart
-data/characters/sorcerer_jupiter.dart
+data/characters/kai_venus.dart      // 1st - Venus Alchemist
+data/characters/ember_mars.dart     // 2nd - Mars Alchemist  
+data/characters/aria_mercury.dart   // 3rd - Mercury Witch
+data/characters/zephyr_jupiter.dart // 4th - Jupiter Sorcerer
 ```
 
 **Files to Create/Modify:**
 1. Rename/extend `lib/models/player.dart` → `lib/models/character.dart`
-2. `lib/models/party.dart` - Party management
-3. `lib/data/characters/` - Character definitions
+2. Update `lib/models/party.dart` - Already exists, verify progressive addition
+3. `lib/data/characters/` - Character definitions with acquisition flags
 
-**3.2 Character-Specific Systems**
+**3.3 Character-Specific Systems**
 
 **Requirements:**
 - Unique Psynergy lists per character
@@ -189,55 +217,76 @@ data/characters/sorcerer_jupiter.dart
 
 ### Phase 4: Story Content Creation (Weeks 13-20)
 
-**4.1 Main Quest Implementation**
+**4.1 Main Quest Implementation - UPDATED for Progressive Party Formation**
 
-**Chapter 1: "The Call"**
-- Opening cutscene (non-adept abuse)
-- Party formation scenes
-- First dungeon (tutorial)
-- Decision to stop towers
+**Chapter 1: "The Awakening" (Solo Start)**
+- Opening cutscene showing non-adept abuse
+- Player controls **only Kai (Venus Alchemist)** initially
+- Solo exploration and character introduction
+- Witness injustice and decision to act
+- First combat tutorial as solo character
 
-**Chapter 2: "The Race"**
-- Travel to Venus region
-- Venus Elemental Sanctuary (natural dungeon - arrive late, already captured)
+**Tutorial Area: "First Steps" (2-Character Party)**
+- **Ember (Mars Alchemist) joins** as 2nd party member
+- Tutorial dungeon introducing party mechanics
+- Learn formation, party commands, and tactics
+- First cooperative Psynergy puzzles
+- Decision to investigate the towers
+- End with determination to stop the tower project
+
+**Chapter 2: "The Race Begins"**
+- Travel to first major town
+- Investigation and gathering intel
+- **Travel to second town**
+- **Aria (Mercury Witch) joins** as 3rd party member (healer/support)
+- 3-character party explores Venus region
+- Preparation for first major challenge
+
+**Chapter 3: "Too Late" (4-Character Party Complete)**
+- Rush to Venus Elemental Sanctuary
+- **Arrive TOO LATE** - Venus Master Djinn already captured
+- At this moment of failure, **Zephyr (Jupiter Sorcerer) joins** as 4th member
+- Zephyr brings news and determination to continue
+- **Full 4-character party is now complete**
+- Must pursue to Venus Lighthouse
 - Venus Lighthouse battle (prevent activation, retrieve sphere)
-- Venus failure cutscene
-- Travel to Mars region
-- Mars Elemental Forge (natural dungeon - arrive late, already captured)
+- First sphere secured
+
+**Chapter 4: "Learning from Mistakes"**
+- Travel to Mars region with full party
+- Mars Elemental Forge (arrive late again, already captured)
 - Mars Lighthouse battle (prevent activation, retrieve sphere)
-- Mars failure cutscene
-- Party despair scene
+- Second sphere secured but pattern of failure clear
+- Party must change strategy
 
-**Chapter 3: "The Guide"**
+**Chapter 5: "The Guide"**
 - Meet the Wise One cutscene
-- Learn about sealing plan and importance of preventing lighthouse activation
-- Character debates
-- Decision to continue
+- Learn about sealing plan and lighthouse mechanics
+- Character debates and bonding
+- Decision to try a new approach
+- Determination to arrive in time next time
 
-**Chapter 4: "The Assault"**
-- Journey to Jupiter region
-- Jupiter Sky Sanctum (natural elemental dungeon with wild Master Djinn)
+**Chapter 6: "Victory and Theft"**
+- Jupiter Sky Sanctum (arrive IN TIME!)
 - Jupiter Master Djinn boss fight (in wild form)
-- Convince Jupiter cutscene (gains consent to seal)
-- Jupiter Lighthouse Stand (prevent adept forces from lighting tower)
-- Battle with Adept Army at lighthouse
+- Obtain Jupiter sphere directly + Lighthouse Key
+- Mercury Frozen Abyss (arrive IN TIME!)
+- Mercury Master Djinn battle
+- All four spheres collected!
+- **The Theft**: Three spheres stolen (Venus, Mars, Mercury)
 
-**Chapter 5: "The Depths"**
-- Prepare for Mercury region
-- Mercury Frozen Abyss (natural elemental dungeon with wild Master Djinn)
-- Mercury Master Djinn multi-phase boss (in wild form)
-- Mercury hesitation scene
-- Convince Mercury (gains consent)
-- Mercury Lighthouse Siege (final stand against tower project leaders)
-- Prevent final lighthouse activation
+**Chapter 7: "The Lighthouses"**
+- Jupiter Lighthouse - retrieve key, prevent activation
+- Mercury Lighthouse - epic heist to steal back all three spheres
+- All four lighthouses remain unlit
 
-**Chapter 6: "The Sacrifice"**
+**Chapter 8: "The Sacrifice"**
+- Calm Venus and Mars Master Djinn in orb form
 - Journey to Sol Sanctum
-- Sol Sanctum dungeon
 - Final boss: Tower Leaders
-- Witch's sacrifice cutscene
-- Sorcerer's sacrifice cutscene
-- The Sealing ceremony
+- Aria's sacrifice cutscene
+- Zephyr's sacrifice cutscene
+- The Sealing ceremony (Kai and Ember survive)
 - Vale foundation epilogue
 - Time skip sequence
 - Bridge to Golden Sun scene
