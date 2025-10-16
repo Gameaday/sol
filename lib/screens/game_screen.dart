@@ -4,7 +4,9 @@ import '../game/sol_game.dart';
 import '../services/game_state_manager.dart';
 import '../services/save_manager.dart';
 import '../models/player.dart';
+import '../models/item.dart';
 import '../widgets/game_hud.dart';
+import 'inventory_screen.dart';
 import 'package:flame/game.dart';
 
 class GameScreen extends StatefulWidget {
@@ -34,6 +36,11 @@ class _GameScreenState extends State<GameScreen> {
   void _initializeGame() {
     if (widget.isNewGame) {
       player = Player(name: 'Hero');
+      // Give starting items
+      player!.addItem('potion');
+      player!.addItem('potion');
+      player!.addItem('ether');
+      player!.gold = 100;
     } else if (widget.saveData != null) {
       player = Player.fromJson(widget.saveData!['player'] as Map<String, dynamic>);
     }
@@ -71,11 +78,41 @@ class _GameScreenState extends State<GameScreen> {
               const SizedBox(height: 24),
               _buildMenuButton('Resume', () => Navigator.of(context).pop()),
               const SizedBox(height: 12),
+              _buildMenuButton('Inventory', _openInventory),
+              const SizedBox(height: 12),
               _buildMenuButton('Save Game', _saveGame),
               const SizedBox(height: 12),
               _buildMenuButton('Main Menu', _returnToMainMenu),
             ],
           ),
+        ),
+      ),
+    );
+  }
+
+  void _openInventory() {
+    Navigator.of(context).pop(); // Close pause menu
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => InventoryScreen(
+          player: player!,
+          onItemUse: (itemId) {
+            final item = ItemDatabase.getItem(itemId);
+            if (item != null) {
+              if (item.healHp != null) {
+                setState(() {
+                  player!.heal(item.healHp!);
+                });
+              }
+              if (item.healMp != null) {
+                setState(() {
+                  player!.restoreMp(item.healMp!);
+                });
+              }
+              // Remove item from inventory
+              player!.removeItem(itemId);
+            }
+          },
         ),
       ),
     );
@@ -191,6 +228,31 @@ class _GameScreenState extends State<GameScreen> {
             right: 0,
             child: SafeArea(
               child: GameHud(player: player!),
+            ),
+          ),
+          
+          // Inventory button
+          Positioned(
+            top: 8,
+            left: 8,
+            child: SafeArea(
+              child: IconButton(
+                icon: Container(
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF0f380f).withOpacity(0.8),
+                    border: Border.all(
+                      color: const Color(0xFF9bbc0f),
+                      width: 2,
+                    ),
+                  ),
+                  child: const Icon(
+                    Icons.backpack,
+                    color: Color(0xFF9bbc0f),
+                  ),
+                ),
+                onPressed: _openInventory,
+              ),
             ),
           ),
           
