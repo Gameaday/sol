@@ -4,9 +4,7 @@ class Player {
   int level;
   int currentHp;
   int maxHp;
-  int currentMp;
-  int maxMp;
-  int currentPp;  // Psynergy Points
+  int currentPp;  // Psynergy Points (replaces MP from traditional RPGs)
   int maxPp;
   int attack;
   int defense;
@@ -25,8 +23,6 @@ class Player {
     this.level = 1,
     this.currentHp = 20,
     this.maxHp = 20,
-    this.currentMp = 10,
-    this.maxMp = 10,
     this.currentPp = 20,
     this.maxPp = 20,
     this.attack = 5,
@@ -50,8 +46,6 @@ class Player {
       'level': level,
       'currentHp': currentHp,
       'maxHp': maxHp,
-      'currentMp': currentMp,
-      'maxMp': maxMp,
       'currentPp': currentPp,
       'maxPp': maxPp,
       'attack': attack,
@@ -74,8 +68,6 @@ class Player {
       level: json['level'] as int,
       currentHp: json['currentHp'] as int,
       maxHp: json['maxHp'] as int,
-      currentMp: json['currentMp'] as int,
-      maxMp: json['maxMp'] as int,
       currentPp: json['currentPp'] as int? ?? 20,
       maxPp: json['maxPp'] as int? ?? 20,
       attack: json['attack'] as int,
@@ -100,14 +92,6 @@ class Player {
   
   void takeDamage(int amount) {
     currentHp = (currentHp - amount).clamp(0, maxHp);
-  }
-  
-  void restoreMp(int amount) {
-    currentMp = (currentMp + amount).clamp(0, maxMp);
-  }
-  
-  void useMp(int amount) {
-    currentMp = (currentMp - amount).clamp(0, maxMp);
   }
   
   void restorePp(int amount) {
@@ -137,13 +121,11 @@ class Player {
   void levelUp() {
     level++;
     maxHp += 5;
-    maxMp += 3;
     maxPp += 5;
     attack += 2;
     defense += 1;
     speed += 1;
     currentHp = maxHp;
-    currentMp = maxMp;
     currentPp = maxPp;
     
     // Learn new Psynergy based on level

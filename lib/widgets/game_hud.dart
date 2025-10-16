@@ -56,21 +56,12 @@ class GameHud extends StatelessWidget {
           ),
           const SizedBox(height: 4),
           
-          // MP bar
-          _buildStatBar(
-            label: 'MP',
-            current: player.currentMp,
-            max: player.maxMp,
-            color: const Color(0xFF4444FF),
-          ),
-          const SizedBox(height: 4),
-          
           // PP bar (Psynergy Points)
           _buildStatBar(
             label: 'PP',
             current: player.currentPp,
             max: player.maxPp,
-            color: const Color(0xFFBB44FF),
+            color: const Color(0xFFAA44FF),
           ),
           const SizedBox(height: 8),
           

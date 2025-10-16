@@ -42,24 +42,28 @@ Four unlikely allies unite to stop the towers and change the world:
 - **Background**: Young alchemist who questions the treatment of non-adepts
 - **Combat Style**: Balanced physical attacks and Psynergy, high durability
 - **Motivation**: Witnessed the cruelty toward non-adepts and seeks equality
+- **Resource**: HP and PP (Psynergy Points) like all Golden Sun characters
 
 #### 2. The Warrior-Alchemist (HP/PP Focused)
 - **Type**: Mars (Fire) Adept
 - **Background**: Former soldier who defected after seeing the towers' true purpose
 - **Combat Style**: Physical powerhouse with offensive Psynergy
 - **Motivation**: Believes Alchemy should remain wild and free, not controlled
+- **Resource**: HP and PP (Psynergy Points) like all Golden Sun characters
 
-#### 3. The Witch (HP/MP Focused)
-- **Type**: Mercury (Water) Magic User
+#### 3. The Witch (HP/PP Focused)
+- **Type**: Mercury (Water) Adept
 - **Background**: Scholar who studied ancient texts about the pre-Alchemy age
-- **Combat Style**: Healing and support magic, Psynergy specialist
+- **Combat Style**: Healing and support Psynergy specialist
 - **Motivation**: Researched the consequences of concentrating alchemical forces
+- **Resource**: HP and PP (Psynergy Points) like all Golden Sun characters
 
-#### 4. The Sorcerer (HP/MP Focused)
-- **Type**: Jupiter (Wind) Magic User
-- **Background**: Outcast mage who discovered the Wise One's warnings
-- **Combat Style**: Powerful offensive magic and utility Psynergy
+#### 4. The Sorcerer (HP/PP Focused)
+- **Type**: Jupiter (Wind) Adept
+- **Background**: Outcast who discovered the Wise One's warnings
+- **Combat Style**: Powerful offensive Psynergy and utility abilities
 - **Motivation**: Seeks to prevent the catastrophe his visions have shown
+- **Resource**: HP and PP (Psynergy Points) like all Golden Sun characters
 
 ### Character Development Themes
 
@@ -127,14 +131,14 @@ Four unlikely allies unite to stop the towers and change the world:
 - The party must convince the Master Djinn to accept imprisonment
 
 **The Sacrifice:**
-- To properly seal the elemental forces requires immense magical power
+- To properly seal the elemental forces requires immense Psynergy power
 - The Witch and Sorcerer realize they must channel all their life force
-- Emotional farewells with their alchemist companions
-- The two magic users sacrifice themselves to complete the seal
+- Emotional farewells with their companions
+- The two sacrifice themselves to complete the seal at Sol Sanctum
 
 **Sol Sanctum:**
 - The four elemental spheres are sealed in a sacred chamber
-- The remaining party members (the two alchemists) found a village at the mountain's base
+- The remaining heroes (Venus and Mars Adepts) found a village at the mountain's base
 - They establish the guardian tradition to prevent anyone from releasing Alchemy
 - The village of Vale is born
 
@@ -226,15 +230,18 @@ Four unlikely allies unite to stop the towers and change the world:
 
 **Mysterious Guide:**
 - Appears after first two spheres are retrieved
-- Cryptic advice about the nature of Alchemy
+- Provides cryptic advice about the nature of Alchemy
 - Guides party to remaining towers
 - Reveals the sealing solution
 
-**True Nature:**
-- Ancient being who has witnessed cycles of Alchemy
-- Knows sealing is temporary but necessary
-- Understands the sacrifice required
-- Sets in motion events leading to Golden Sun
+**True Motivation:**
+- Ancient being who has witnessed the abuse of Alchemy across cycles
+- Seeks to stop the cruel treatment of non-adepts and the enslavement of elemental forces
+- Knows sealing Alchemy away will bring temporary peace and equality
+- Understands the sacrifice required and the long-term consequences
+- In this era: helps seal Alchemy to prevent its abuse
+- In Golden Sun era: protects the seal from those lacking virtue
+- Consistent goal: prevent Alchemy from being controlled or weaponized by the unworthy
 
 ## Quest Structure
 
@@ -313,7 +320,7 @@ Four unlikely allies unite to stop the towers and change the world:
 ### Thematic Parallels
 
 **Hero's Sacrifice:**
-- In Sol: Magic users sacrifice themselves to seal
+- In Sol: Mercury and Jupiter Adepts sacrifice themselves to seal
 - In Golden Sun: Heroes must risk world to unseal
 
 **Questioning Authority:**
@@ -339,7 +346,14 @@ Four unlikely allies unite to stop the towers and change the world:
 9. **The Sealing**: Massive magical ceremony
 10. **Vale's Foundation**: Hope for future generations
 11. **Time Skip**: Seeing consequences of their actions
-12. **Bridge to Golden Sun**: Realizing their seal is failing
+12. **Bridge to Golden Sun**: Realizing the seal is weakening
+
+**The Wise One's Consistent Philosophy**:
+- Across both games, the Wise One seeks to protect Alchemy from abuse
+- In Sol: Seals it away to stop prejudice and prevent tower project from enslaving the elements
+- In Golden Sun: Prevents unsealing unless those attempting it prove their virtue
+- The Wise One values the protection of elemental forces and the prevention of their weaponization
+- Tests heroes in both eras to ensure they act for noble reasons, not power
 
 ## Success Criteria
 

@@ -12,8 +12,8 @@ An age when Alchemy flowed freely through the world, creating a society divided 
 ### Heroes
 - **Venus Alchemist** (Earth, HP/PP) - Questions adept supremacy
 - **Mars Alchemist** (Fire, HP/PP) - Former soldier turned rebel
-- **Mercury Witch** (Water, HP/MP) - Scholar of ancient wisdom
-- **Jupiter Sorcerer** (Wind, HP/MP) - Visionary outcast mage
+- **Mercury Witch** (Water, HP/PP) - Scholar of ancient wisdom
+- **Jupiter Sorcerer** (Wind, HP/PP) - Visionary outcast
 
 ### The Journey
 1. **The Call** - Form party, learn about tower project
@@ -21,10 +21,16 @@ An age when Alchemy flowed freely through the world, creating a society divided 
 3. **The Guide** - Meet Wise One, learn the sealing plan
 4. **The Assault** - Successfully save Jupiter Master Djinn
 5. **The Depths** - Successfully save Mercury Master Djinn
-6. **The Sacrifice** - Witch and Sorcerer give their lives to seal Alchemy
+6. **The Sacrifice** - Mercury and Jupiter Adepts give their lives to seal Alchemy
 
 ### The Outcome
-The two surviving alchemists found Vale village at the base of Sol Sanctum to guard the sealed elemental stones. Peace reigns for 1000 years... until the world begins dying without Alchemy, leading to Golden Sun's events.
+The Venus and Mars Adepts survive and found Vale village at the base of Sol Sanctum to guard the sealed elemental stones. Peace reigns for 1000 years... until the world begins dying without Alchemy, leading to Golden Sun's events.
+
+### The Wise One's Role
+The Wise One acts as a guardian of Alchemy's proper use across both games:
+- **In Sol**: Helps seal Alchemy to prevent abuse and end prejudice against non-adepts
+- **In Golden Sun**: Tests those who would unseal it to ensure they act virtuously, not for power
+- Consistent philosophy: Protect elemental forces from being weaponized or enslaved
 
 ## Current Implementation Status
 

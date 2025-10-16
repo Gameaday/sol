@@ -5,7 +5,7 @@ class Item {
   final String description;
   final ItemType type;
   final int? healHp;
-  final int? healMp;
+  final int? healPp;
   final int? attackBonus;
   final int? defenseBonus;
   final int value;
@@ -17,7 +17,7 @@ class Item {
     required this.description,
     required this.type,
     this.healHp,
-    this.healMp,
+    this.healPp,
     this.attackBonus,
     this.defenseBonus,
     required this.value,
@@ -48,20 +48,20 @@ class ItemDatabase {
     ),
     'ether': Item(
       id: 'ether',
-      name: 'Ether',
-      description: 'Restores 10 MP',
+      name: 'Psy Crystal',
+      description: 'Restores 10 PP',
       type: ItemType.consumable,
-      healMp: 10,
+      healPp: 10,
       value: 15,
       consumable: true,
     ),
     'elixir': Item(
       id: 'elixir',
       name: 'Elixir',
-      description: 'Fully restores HP and MP',
+      description: 'Fully restores HP and PP',
       type: ItemType.consumable,
       healHp: 9999,
-      healMp: 9999,
+      healPp: 9999,
       value: 50,
       consumable: true,
     ),

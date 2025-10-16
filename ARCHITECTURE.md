@@ -147,7 +147,7 @@
 │                                                                  │
 │  Battle Action → Monster Damage → Player EXP → Level Up         │
 │                                                                  │
-│  Use Item → Update Player HP/MP → Remove from Inventory         │
+│  Use Item → Update Player HP/PP → Remove from Inventory         │
 │                                                                  │
 │  Save Game → Player.toJson() → SaveManager → SharedPreferences  │
 │                                                                  │

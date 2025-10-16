@@ -65,14 +65,14 @@ class _BattleScreenState extends State<BattleScreen>
   }
 
   void _useSkill() {
-    if (_battleEnded || !_playerTurn || widget.player.currentMp < 5) return;
+    if (_battleEnded || !_playerTurn || widget.player.currentPp < 5) return;
 
     setState(() {
-      widget.player.useMp(5);
+      widget.player.usePp(5);
       final damage = (widget.player.attack * 1.5).toInt();
       final actualDamage = damage - (widget.monster.defense ~/ 2);
       widget.monster.takeDamage(actualDamage.clamp(1, actualDamage));
-      _battleLog = 'Used special skill! Dealt $actualDamage damage!';
+      _battleLog = 'Used Psynergy! Dealt $actualDamage damage!';
       _playerTurn = false;
     });
 
@@ -332,7 +332,7 @@ class _BattleScreenState extends State<BattleScreen>
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'MP: ${widget.player.currentMp}/${widget.player.maxMp}',
+                          'PP: ${widget.player.currentPp}/${widget.player.maxPp}',
                           style: const TextStyle(
                             color: Color(0xFF9bbc0f),
                             fontFamily: 'monospace',
@@ -351,11 +351,11 @@ class _BattleScreenState extends State<BattleScreen>
                           ),
                           child: FractionallySizedBox(
                             alignment: Alignment.centerLeft,
-                            widthFactor: (widget.player.currentMp /
-                                    widget.player.maxMp)
+                            widthFactor: (widget.player.currentPp /
+                                    widget.player.maxPp)
                                 .clamp(0.0, 1.0),
                             child: Container(
-                              color: const Color(0xFF4444FF),
+                              color: const Color(0xFFAA44FF),
                             ),
                           ),
                         ),
@@ -385,10 +385,10 @@ class _BattleScreenState extends State<BattleScreen>
                       child: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 4.0),
                         child: RetroButton(
-                          text: 'Skill',
+                          text: 'Psynergy',
                           onPressed: _playerTurn &&
                                   !_battleEnded &&
-                                  widget.player.currentMp >= 5
+                                  widget.player.currentPp >= 5
                               ? _useSkill
                               : null,
                           width: double.infinity,

@@ -116,9 +116,9 @@ class _GameScreenState extends State<GameScreen> {
                   player!.heal(item.healHp!);
                 });
               }
-              if (item.healMp != null) {
+              if (item.healPp != null) {
                 setState(() {
-                  player!.restoreMp(item.healMp!);
+                  player!.restorePp(item.healPp!);
                 });
               }
               // Remove item from inventory

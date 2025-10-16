@@ -264,12 +264,12 @@ class _InventoryScreenState extends State<InventoryScreen> {
                     fontFamily: 'monospace',
                   ),
                 ),
-                if (item.healHp != null || item.healMp != null) ...[
+                if (item.healHp != null || item.healPp != null) ...[
                   const SizedBox(height: 4),
                   Text(
                     [
                       if (item.healHp != null) 'HP+${item.healHp}',
-                      if (item.healMp != null) 'MP+${item.healMp}',
+                      if (item.healPp != null) 'PP+${item.healPp}',
                     ].join(' '),
                     style: const TextStyle(
                       fontSize: 10,
