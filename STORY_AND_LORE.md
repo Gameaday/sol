@@ -88,42 +88,63 @@ Four unlikely allies unite to stop the towers and change the world:
 - Initial confrontations with tower supporters
 - Discovery of the Master Djinn's existence
 
-### Act 2: Gathering the Elements
+### Act 2: The First Failures
 
 **Venus - Earth Sanctuary:**
-- Party reaches Venus Master Djinn in its natural underground sanctuary
-- Massive earth dungeon with stone puzzles and crystalline chambers
-- Epic battle against Venus Master Djinn in its wild, untamed form
-- Successfully retrieve the Venus elemental sphere after defeating it
-- Venus Master Djinn enters dormant state within the sphere
+- Party races to Venus Master Djinn's natural underground sanctuary
+- Arrive TOO LATE - enemy forces have already captured the Master Djinn
+- Massive earth dungeon now empty, signs of recent battle everywhere
+- Party realizes they must adapt their strategy
+- Must now pursue to Venus Lighthouse
+
+**Venus Lighthouse:**
+- Infiltrate the tower where Venus sphere is being held
+- Battle through adept guards to reach the condensed sphere
+- Successfully retrieve Venus elemental sphere before activation
+- Prevent Venus Lighthouse from being lit
+- First sphere secured, but the race is on
 
 **Mars - Volcanic Forge:**
-- Journey to Mars Master Djinn in its volcanic domain
-- Fire-themed dungeon with lava flows and heat-based puzzles
-- Battle Mars Master Djinn in its blazing, primal form
-- Retrieve the Mars elemental sphere after victory
-- Mars Master Djinn sealed within the condensed sphere
+- Rush to Mars Master Djinn's volcanic domain hoping to arrive in time
+- Arrive TOO LATE AGAIN - Mars has also been captured
+- Fire-themed dungeon with cooling lava and abandoned battle sites
+- Desperation sets in as pattern becomes clear
+- Must pursue to Mars Lighthouse
+
+**Mars Lighthouse:**
+- Battle through Mars Lighthouse to retrieve the second sphere
+- More heavily guarded than Venus tower
+- Epic confrontation with fire adept lieutenants
+- Retrieve Mars elemental sphere, prevent lighthouse activation
+- Two spheres secured, but morale is shaken
+
+### Act 3: Turning the Tide
 
 **Jupiter - Sky Sanctum:**
-- Ascend to Jupiter Master Djinn in floating sky temples
+- New strategy: Move faster, use different approach
+- Arrive IN TIME at Jupiter's floating sky temples!
 - Wind puzzles requiring all four party members in harmony
-- Confrontation with Jupiter Master Djinn in its wild aerial form
-- Obtain Jupiter elemental sphere and a mysterious **Lighthouse Key**
-- Jupiter hints at a greater plan unfolding
+- Epic battle against Jupiter Master Djinn in its wild aerial form
+- Obtain Jupiter elemental sphere directly from the Master Djinn
+- Also discover a mysterious **Lighthouse Key** in the sanctum
+- Jupiter Master Djinn joins willingly after being defeated with honor
+- First major victory!
 
 **Mercury - Frozen Abyss:**
-- Descend to Mercury Master Djinn in frozen depths
+- Confidence renewed, party descends to Mercury's frozen depths
+- Arrive IN TIME! Second consecutive success!
 - Most challenging water/ice puzzles reflecting adaptability
-- Face Mercury Master Djinn in its pure elemental state
-- Secure the final elemental sphere
-- All four spheres now in party's possession
+- Face Mercury Master Djinn in its pure, untamed elemental state
+- Secure Mercury elemental sphere after intense battle
+- Mercury respects party's strength and cooperates
+- All four spheres now in party's possession!
 
 **Key Revelation:**
 - The lighthouses have NEVER been lit - they are unproven technology
 - This explains why in Golden Sun, lighting them causes structural damage
-- The Lighthouse Key from Jupiter is needed to access the final tower
+- The Lighthouse Key from Jupiter will prove crucial later
 
-### Act 3: The Betrayal and the Lighthouses
+### Act 4: The Betrayal and the Lighthouses
 
 **Meeting the Wise One:**
 - Party brings all four spheres to the Wise One
@@ -161,19 +182,21 @@ Four unlikely allies unite to stop the towers and change the world:
 - This explains their structural fragility in Golden Sun
 - After 1000 years dormant, they break when finally activated
 
-### Act 4: The Great Sealing
+### Act 5: The Great Sealing
 
 **Preparation - Calming the First Two Elements:**
 - With all four spheres recovered, party prepares for the sealing
-- Venus and Mars spheres contain dormant but hostile elemental forces
-- **Must enter and calm/defeat** Venus Master Djinn within its orb form
-- **Must enter and calm/defeat** Mars Master Djinn within its orb form
-- These battles take place inside the consciousness of the elemental spheres
+- Venus and Mars spheres contain compressed, hostile elemental forces
+- These two were never properly communicated with (captured while party was late)
+- **Must enter and calm/defeat** Venus Master Djinn within its orb consciousness form
+- **Must enter and calm/defeat** Mars Master Djinn within its orb consciousness form
+- These battles take place inside the consciousness realms of the elemental spheres
 - Successfully calming them unlocks:
-  - **Replay fights**: Can re-battle the Master Djinn for practice
+  - **Replay fights**: Can re-battle all Master Djinn for practice
   - **Enhanced Psynergy**: Deeper connection to Venus and Mars elements
-  - **Special abilities**: Unique powers from understanding the elements
-- Jupiter and Mercury Master Djinn are already cooperative from earlier encounters
+  - **Special abilities**: Unique powers from understanding compressed elements
+- Jupiter and Mercury Master Djinn are already cooperative (defeated honorably)
+- All four elements now ready for sealing
 
 **The Dilemma:**
 - Sealing Alchemy will save non-adepts but end the Age of Wonder
