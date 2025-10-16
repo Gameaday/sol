@@ -78,6 +78,47 @@ class StoryManager extends ChangeNotifier {
     return _storyFlags.getMilestones();
   }
   
+  // Story Event Management
+  
+  /// Add a story event to the journal
+  void addStoryEvent(String id, String title, String summary, EventType type) {
+    final event = StoryEvent(
+      id: id,
+      title: title,
+      summary: summary,
+      chapter: getCurrentChapter(),
+      type: type,
+    );
+    _storyFlags.addEvent(event);
+    notifyListeners();
+  }
+  
+  /// Get all story events
+  List<StoryEvent> getStoryEvents() {
+    return _storyFlags.getEvents();
+  }
+  
+  /// Get story events in chronological order
+  List<StoryEvent> getStoryEventsChronological() {
+    return _storyFlags.getEventsChronological();
+  }
+  
+  /// Get current story tip (most recent story event)
+  StoryEvent? getCurrentTip() {
+    final events = getStoryEventsChronological();
+    if (events.isEmpty) return null;
+    
+    // Return the most recent story-type event
+    for (var i = events.length - 1; i >= 0; i--) {
+      if (events[i].type == EventType.story) {
+        return events[i];
+      }
+    }
+    
+    // If no story events, return the most recent event
+    return events.last;
+  }
+  
   // Quest Management
   
   /// Start a new quest
@@ -123,6 +164,14 @@ class StoryManager extends ChangeNotifier {
         setFlag(entry.key, entry.value);
       }
     }
+    
+    // Add quest completion to story journal
+    addStoryEvent(
+      'quest_${quest.id}_complete',
+      'Quest Completed: ${quest.name}',
+      quest.description,
+      EventType.quest,
+    );
     
     notifyListeners();
   }
