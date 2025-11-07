@@ -331,7 +331,7 @@ class Chapter5TheGuide {
   }
 
   /// Party debate and resolve cutscene
-  static CutsceneScript createPartyResolveC utscene() {
+  static CutsceneScript createPartyResolveCutscene() {
     return CutsceneScript(
       id: 'ch5_party_resolve',
       name: 'The Decision',
