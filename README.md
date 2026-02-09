@@ -1,6 +1,23 @@
 # Sol - Retro RPG Adventure
 
+[![Flutter CI](https://github.com/Gameaday/sol/actions/workflows/flutter-ci.yml/badge.svg)](https://github.com/Gameaday/sol/actions/workflows/flutter-ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Flutter Version](https://img.shields.io/badge/Flutter-3.16.0-blue.svg)](https://flutter.dev/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 A 2D retro-style RPG game inspired by Golden Sun, built with Flutter and Flame engine.
+
+> **Note**: Sol is in active development. See [CHANGELOG.md](CHANGELOG.md) for version history and [docs/implementation/IMPLEMENTATION_STATUS.md](docs/implementation/IMPLEMENTATION_STATUS.md) for current progress.
+
+## 📋 Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Documentation](#documentation)
+- [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
+- [Credits](#credits)
 
 ## Features
 
@@ -235,42 +252,102 @@ Assets are organized in the following structure:
 - `assets/maps/` - Map data files
 - `assets/data/` - Game data (dialogue, items, etc.)
 
-## Documentation
+## 📚 Documentation
 
-### Core Documentation
-- **IMPLEMENTATION_PLAN.md** - 40-week development roadmap with phase details
-- **ARCHITECTURE.md** - System architecture and design patterns
-- **STORY_AND_LORE.md** - Complete narrative and world building
-- **GAME_DESIGN.md** - Game design principles and mechanics
+For detailed documentation, see the [docs/](docs/) directory:
 
-### Phase Documentation
-- **PHASE1_SUMMARY.md** - Summary of completed Phase 1 features
-- **PHASE2_IMPLEMENTATION_SUMMARY.md** - Phase 2 narrative systems (✓ COMPLETE)
-- **PHASE2.5_IMPLEMENTATION_SUMMARY.md** - Journal system and progressive party (✓ COMPLETE)
-- **PHASE2_GUIDE.md** - Comprehensive guide to Phase 2 narrative systems
-- **JOURNAL_SYSTEM.md** - Story journal system documentation
+### Quick Links
+- **[Project Summary](docs/PROJECT_SUMMARY.md)** - High-level overview
+- **[Quickstart Guide](docs/QUICKSTART.md)** - Get started quickly
+- **[Development Guide](docs/DEVELOPMENT.md)** - Setup and workflow
+- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute
 
-### Content Creation Guides
-- **lib/data/README.md** - Guide for creating game content
-- **lib/data/characters/README.md** - Character system documentation
-- **lib/data/story/README.md** - Story content creation guide
+### Design & Architecture
+- **[Architecture](docs/design/ARCHITECTURE.md)** - System design
+- **[Game Design](docs/design/GAME_DESIGN.md)** - Design principles
+- **[Golden Sun Systems](docs/design/GOLDEN_SUN_SYSTEMS.md)** - Inspired mechanics
 
-## Future Enhancements
+### Story & Content
+- **[Story and Lore](docs/story/STORY_AND_LORE.md)** - Complete narrative
+- **[Character Database](docs/story/CHARACTER_DATABASE.md)** - All characters
+- **[Journal System](docs/story/JOURNAL_SYSTEM.md)** - Narrative tracking
 
+### Implementation
+- **[Implementation Plan](docs/implementation/IMPLEMENTATION_PLAN.md)** - Development roadmap
+- **[Implementation Status](docs/implementation/IMPLEMENTATION_STATUS.md)** - Current progress
+- **[Phase Guides](docs/implementation/)** - Phase-specific documentation
+
+See [docs/README.md](docs/README.md) for the complete documentation index.
+
+## 🚀 Development
+
+### Development Status
+- ✅ Phase 1: Technical Foundation (Complete)
+- ✅ Phase 2: Narrative Framework (Complete)
+- ✅ Phase 3: Party System (Complete)
+- ✅ Phase 4: Story Content (Complete)
+- 🔄 Phase 5: World Building (In Progress)
+
+See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
+
+### Future Enhancements
 - [ ] Animated sprite support
 - [ ] More monster types and boss battles
 - [ ] Puzzle system implementation
-- [ ] NPC dialogue system
 - [ ] Equipment and item system
 - [ ] Multiple towns and dungeons
 - [ ] Story expansion DLC content
 - [ ] Achievements system
 - [ ] Cloud save support
 
-## License
+## 🤝 Contributing
 
-This project is created as a test bed for Flutter and Flame game development.
+We welcome contributions from the community! Here's how you can help:
 
-## Credits
+1. **Read the [Contributing Guide](CONTRIBUTING.md)** - Learn about our development process
+2. **Check [Issues](https://github.com/Gameaday/sol/issues)** - Find something to work on
+3. **Review the [Code of Conduct](CODE_OF_CONDUCT.md)** - Understand our community standards
+4. **Join the Discussion** - Share ideas and ask questions
 
-Inspired by the classic Golden Sun series by Camelot Software Planning.
+### Ways to Contribute
+- 💻 **Code**: Fix bugs, add features, improve performance
+- 📝 **Documentation**: Improve guides, add examples, fix typos
+- 🎨 **Design**: Create sprites, UI elements, game assets
+- 🎵 **Audio**: Compose music, create sound effects
+- ✍️ **Content**: Write dialogue, quests, character backstories
+- 🐛 **Testing**: Report bugs, test features, provide feedback
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+## 🔒 Security
+
+Found a security vulnerability? Please see our [Security Policy](SECURITY.md) for responsible disclosure guidelines.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Credits
+
+Sol is inspired by the classic **Golden Sun** series by Camelot Software Planning.
+
+### Acknowledgments
+- **Flutter Team** - For the amazing cross-platform framework
+- **Flame Engine** - For the powerful 2D game engine
+- **Golden Sun Community** - For inspiration and passion for the series
+- **Contributors** - Everyone who has contributed to this project
+
+## 📞 Contact & Links
+
+- **Repository**: [github.com/Gameaday/sol](https://github.com/Gameaday/sol)
+- **Issues**: [Report bugs or request features](https://github.com/Gameaday/sol/issues)
+- **Discussions**: [Join the conversation](https://github.com/Gameaday/sol/discussions)
+- **Documentation**: [docs/](docs/)
+
+---
+
+**Current Version**: 0.3.0 (Phase 4 Complete)  
+**Status**: Active Development  
+**Last Updated**: February 2026
+
+Made with ❤️ by the Sol development team
