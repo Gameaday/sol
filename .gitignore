@@ -6,6 +6,28 @@
 *.swp
 .buildlog/
 .history
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+*.iws
+.project
+.classpath
+.settings/
+nbproject/
+
+# Secrets and environment files
+.env
+.env.local
+.env.*.local
+*.key
+*.keystore
+secrets.json
+google-services.json
+GoogleService-Info.plist
 
 
 
@@ -106,9 +128,32 @@ unlinked_spec.ds
 
 # Coverage
 coverage/
+*.lcov
 
 # Symbols
 app.*.symbols
+
+# Web specific
+web/firebase-config.js
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Logs
+logs/
+*.log.*
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
 
 # Exceptions to above rules.
 !**/ios/**/default.mode1v3
